@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  13 APR 2019 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  19 APR 2019 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1795,33 +1795,39 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \WF@box=\box48
 \WF@everypar=\toks39
 Package: wrapfig 2003/01/31  v 3.6
-) (./tk.aux)
+) (./tk.aux
+
+LaTeX Warning: Label `eq:20' multiply defined.
+
+
+LaTeX Warning: Label `eq:34' multiply defined.
+
+)
 \openout1 = `tk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-
-(c:/texlive/2018/texmf-dist/tex/latex/ucs/ucsencs.def
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+ (c:/texlive/2018/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring ON on input line 5.
+Package hyperref Info: Link coloring ON on input line 6.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1831,9 +1837,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count280
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 6.
+LaTeX Info: Redefining \pageref on input line 6.
+LaTeX Info: Redefining \nameref on input line 6.
  (./tk.out) (./tk.out)
 \@outlinefile=\write3
 \openout3 = `tk.out'.
@@ -1906,185 +1912,376 @@ e
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 6.
+(babel)             in language append on input line 7.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 6.
+(babel)             in language append on input line 7.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<fig/fig1.jpg, id=29, 1557.82pt x 961.5925pt>
+<fig/fig1.jpg, id=41, 1557.82pt x 961.5925pt>
 File: fig/fig1.jpg Graphic file (type jpg)
 <use fig/fig1.jpg>
-Package pdftex.def Info: fig/fig1.jpg  used on input line 12.
+Package pdftex.def Info: fig/fig1.jpg  used on input line 13.
 (pdftex.def)             Requested size: 241.84843pt x 149.28006pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 46.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 46.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 46.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 46.
  [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./fig/fig1.jpg>]
-<fig/fig2.pdf, id=45, 599.23875pt x 452.69125pt>
+<fig/fig2.pdf, id=57, 599.23875pt x 452.69125pt>
 File: fig/fig2.pdf Graphic file (type pdf)
 <use fig/fig2.pdf>
-Package pdftex.def Info: fig/fig2.pdf  used on input line 61.
+Package pdftex.def Info: fig/fig2.pdf  used on input line 62.
 (pdftex.def)             Requested size: 241.84843pt x 182.70346pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 82.
+(babel)             in language append on input line 83.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 82.
+(babel)             in language append on input line 83.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 82.
+(babel)             in language append on input line 83.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 82.
+(babel)             in language append on input line 83.
  [2 <./fig/fig2.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 86.
+(babel)             in language append on input line 87.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 86.
+(babel)             in language append on input line 87.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 116.
+(babel)             in language append on input line 117.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 116.
+(babel)             in language append on input line 117.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 116.
+(babel)             in language append on input line 117.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 116.
+(babel)             in language append on input line 117.
  [3]
-<fig/fig3.pdf, id=89, 525.965pt x 518.93875pt>
+<fig/fig3.pdf, id=101, 525.965pt x 518.93875pt>
 File: fig/fig3.pdf Graphic file (type pdf)
 <use fig/fig3.pdf>
-Package pdftex.def Info: fig/fig3.pdf  used on input line 130.
+Package pdftex.def Info: fig/fig3.pdf  used on input line 131.
 (pdftex.def)             Requested size: 241.84843pt x 238.6197pt.
-<fig/fig4.pdf, id=91, 525.965pt x 518.93875pt>
+<fig/fig4.pdf, id=103, 525.965pt x 518.93875pt>
 File: fig/fig4.pdf Graphic file (type pdf)
 <use fig/fig4.pdf>
-Package pdftex.def Info: fig/fig4.pdf  used on input line 141.
+Package pdftex.def Info: fig/fig4.pdf  used on input line 142.
 (pdftex.def)             Requested size: 241.84843pt x 238.6197pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 143.
+(babel)             in language append on input line 144.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 143.
+(babel)             in language append on input line 144.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 143.
+(babel)             in language append on input line 144.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 143.
+(babel)             in language append on input line 144.
  [4 <./fig/fig3.pdf>]
-Overfull \hbox (70.11847pt too wide) in paragraph at lines 144--145
+Overfull \hbox (70.11847pt too wide) in paragraph at lines 145--146
 []\T2A/cmr/m/n/14.4 Дисперсионная ха-рак-те-ри-сти-ка про-яв-ля-ет-ся в об-ла-с
 ти про-зрач-но-сти/непрозрачности
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 150.
+(babel)             in language append on input line 151.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 150.
+(babel)             in language append on input line 151.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 179.
+(babel)             in language append on input line 180.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 179.
+(babel)             in language append on input line 180.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 179.
+(babel)             in language append on input line 180.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 179.
+(babel)             in language append on input line 180.
 [5 <./fig/fig4.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 204.
+(babel)             in language append on input line 205.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 204.
-<fig/fig5.pdf, id=132, 240.9pt x 168.63pt>
+(babel)             in language append on input line 205.
+<fig/fig5.pdf, id=144, 240.9pt x 168.63pt>
 File: fig/fig5.pdf Graphic file (type pdf)
 <use fig/fig5.pdf>
-Package pdftex.def Info: fig/fig5.pdf  used on input line 215.
+Package pdftex.def Info: fig/fig5.pdf  used on input line 216.
 (pdftex.def)             Requested size: 241.84843pt x 169.29857pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 216.
+(babel)             in language append on input line 217.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 216.
+(babel)             in language append on input line 217.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 216.
+(babel)             in language append on input line 217.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 216.
+(babel)             in language append on input line 217.
  [6]
-Overfull \hbox (11.51741pt too wide) in paragraph at lines 236--236
+Overfull \hbox (11.51741pt too wide) in paragraph at lines 237--237
 |[]\T2A/cmr/bx/n/17.28 Устойчивость со-сто-я-ний рав-но-ве-сия нели-ней-ных рас
 -
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 236.
+(babel)             in language append on input line 237.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 236.
-<fig/fig6.pdf, id=141, 114.1866pt x 114.1866pt>
+(babel)             in language append on input line 237.
+<fig/fig6.pdf, id=153, 114.1866pt x 114.1866pt>
 File: fig/fig6.pdf Graphic file (type pdf)
 <use fig/fig6.pdf>
-Package pdftex.def Info: fig/fig6.pdf  used on input line 245.
+Package pdftex.def Info: fig/fig6.pdf  used on input line 246.
 (pdftex.def)             Requested size: 241.84843pt x 241.87753pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 246.
+(babel)             in language append on input line 247.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 246.
+(babel)             in language append on input line 247.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 246.
+(babel)             in language append on input line 247.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 246.
+(babel)             in language append on input line 247.
 [7 <./fig/fig5.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+<fig/fig7.pdf, id=193, 481.8pt x 403.5075pt>
+File: fig/fig7.pdf Graphic file (type pdf)
+<use fig/fig7.pdf>
+Package pdftex.def Info: fig/fig7.pdf  used on input line 270.
+(pdftex.def)             Requested size: 241.84843pt x 202.5475pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 267.
+(babel)             in language append on input line 272.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 267.
+(babel)             in language append on input line 272.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 267.
+(babel)             in language append on input line 272.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 267.
+(babel)             in language append on input line 272.
  [8 <./fig/fig6.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+Overfull \hbox (34.02507pt too wide) in paragraph at lines 278--278
+|[]\T2A/cmr/bx/n/20.74 15.04.19 Диф-фу-зи-он-ная неустой-чи-вость. Струк-
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 278.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 278.
+
+Overfull \hbox (4.59717pt too wide) in paragraph at lines 281--282
+[]\T2A/cmr/m/n/14.4 Тьюринг пред-по-ло-жил, что су-ще-ству-ют два ве-ще-ства. О
+д-но из них - $\OML/cmm/m/it/14.4 U\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; t\O
+T1/cmr/m/n/14.4 )$
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 298.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 298.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 298.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 298.
+[9 <./fig/fig7.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 347.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 347.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 347.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 347.
+ [10]
+<fig/fig8.pdf, id=285, 501.875pt x 367.3725pt>
+File: fig/fig8.pdf Graphic file (type pdf)
+<use fig/fig8.pdf>
+Package pdftex.def Info: fig/fig8.pdf  used on input line 363.
+(pdftex.def)             Requested size: 241.84843pt x 177.03749pt.
+<fig/fig9.pdf, id=287, 501.875pt x 412.54124pt>
+File: fig/fig9.pdf Graphic file (type pdf)
+<use fig/fig9.pdf>
+Package pdftex.def Info: fig/fig9.pdf  used on input line 380.
+(pdftex.def)             Requested size: 241.84843pt x 198.8044pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 382.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 382.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 382.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 382.
+ [11 <./fig/fig8.pdf>]
+<fig/fig10.pdf, id=321, 501.875pt x 501.875pt>
+File: fig/fig10.pdf Graphic file (type pdf)
+<use fig/fig10.pdf>
+Package pdftex.def Info: fig/fig10.pdf  used on input line 386.
+(pdftex.def)             Requested size: 241.84843pt x 241.8545pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 391.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 391.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 393.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 393.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 393.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 393.
+ [12 <./fig/fig9.pdf> <./fig/fig10.pdf>]
+<fig/fig11.pdf, id=400, 501.875pt x 358.33875pt>
+File: fig/fig11.pdf Graphic file (type pdf)
+<use fig/fig11.pdf>
+Package pdftex.def Info: fig/fig11.pdf  used on input line 417.
+(pdftex.def)             Requested size: 193.47578pt x 138.14401pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 421.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 421.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 421.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 421.
+ [13 <./fig/fig11.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 460.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 460.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 460.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 460.
+ [14]
+<fig/fig12.pdf, id=447, 409.53pt x 396.48125pt>
+File: fig/fig12.pdf Graphic file (type pdf)
+<use fig/fig12.pdf>
+Package pdftex.def Info: fig/fig12.pdf  used on input line 501.
+(pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 502.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 502.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 502.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 502.
+ [15]
+<fig/fig13.pdf, id=456, 409.53pt x 396.48125pt>
+File: fig/fig13.pdf Graphic file (type pdf)
+<use fig/fig13.pdf>
+Package pdftex.def Info: fig/fig13.pdf  used on input line 507.
+(pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
+<fig/fig14.pdf, id=457, 409.53pt x 396.48125pt>
+File: fig/fig14.pdf Graphic file (type pdf)
+<use fig/fig14.pdf>
+Package pdftex.def Info: fig/fig14.pdf  used on input line 512.
+(pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
+<fig/fig15.pdf, id=458, 409.53pt x 396.48125pt>
+File: fig/fig15.pdf Graphic file (type pdf)
+<use fig/fig15.pdf>
+Package pdftex.def Info: fig/fig15.pdf  used on input line 518.
+(pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 519.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 519.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 519.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 519.
+ [16 <./fig/fig12.pdf> <./fig/fig13.pdf> <./fig/fig14.pdf>]
+<fig/fig16.pdf, id=539, 409.53pt x 396.48125pt>
+File: fig/fig16.pdf Graphic file (type pdf)
+<use fig/fig16.pdf>
+Package pdftex.def Info: fig/fig16.pdf  used on input line 522.
+(pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
+<fig/fig17.pdf, id=540, 409.53pt x 396.48125pt>
+File: fig/fig17.pdf Graphic file (type pdf)
+<use fig/fig17.pdf>
+Package pdftex.def Info: fig/fig17.pdf  used on input line 526.
+(pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 530.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 530.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 530.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 530.
+ [17 <./fig/fig15.pdf> <./fig/fig16.pdf> <./fig/fig17.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 531.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 531.
+<fig/fig18.pdf, id=635, 1927.2pt x 1204.5pt>
+File: fig/fig18.pdf Graphic file (type pdf)
+<use fig/fig18.pdf>
+Package pdftex.def Info: fig/fig18.pdf  used on input line 535.
+(pdftex.def)             Requested size: 193.47578pt x 120.91653pt.
+File: fig/fig4.pdf Graphic file (type pdf)
+<use fig/fig4.pdf>
+Package pdftex.def Info: fig/fig4.pdf  used on input line 556.
+(pdftex.def)             Requested size: 193.47578pt x 190.88783pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 557.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 557.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 557.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 557.
+ [18 <./fig/fig18.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 592.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 592.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 592.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 592.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 592.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 592.
  (./tk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 592.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 592.
 Package rerunfilecheck Info: File `tk.out' has not changed.
-(rerunfilecheck)             Checksum: 6BB464AF6DCD1FC1E464246A5481C094;2551.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
+(rerunfilecheck)             Checksum: C9B7F1A0A5BB3C7BD3B4701F954AC280;3722.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 592.
  ) 
 Here is how much of TeX's memory you used:
- 22906 strings out of 492641
- 365110 string characters out of 6133116
- 441686 words of memory out of 5000000
- 26523 multiletter control sequences out of 15000+600000
+ 23020 strings out of 492641
+ 366862 string characters out of 6133116
+ 444696 words of memory out of 5000000
+ 26592 multiletter control sequences out of 15000+600000
  541474 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,14n,65p,971b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,14n,65p,973b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type
-1/public/cm-super/sfrm1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/c
-m-super/sfti1440.pfb>
-Output written on tk.pdf (8 pages, 1091516 bytes).
+s/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2018/texmf-dist/f
+onts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm
+-super/sfrm1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sft
+i1440.pfb>
+Output written on tk.pdf (19 pages, 4034674 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 772 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
 
