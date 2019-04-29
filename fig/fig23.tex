@@ -1,0 +1,21 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (-8,0) -- (8,0) node[right] {$\xi$};
+    \draw[->] (0,-0.2) -- (0,5) node[left] {$U$};
+    \draw (-7,0.5) -- (-4,0.8) cos (-3,1.5) sin (0,4) cos (3,1.5) sin (4,0.8) -- (7,0.5) ;
+    \coordinate [label=135:$3V$] (3V) at (0,4);
+
+\end{tikzpicture}
+
+
+\end{document}

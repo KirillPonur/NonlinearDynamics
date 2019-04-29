@@ -1,0 +1,21 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (0,0) -- (7,0) node[right] {$\nu$};
+    \draw[->] (0,-0.2) -- (0,5) node[left] {$\beta$};
+    \draw[color=black,domain=0:3.7,samples=200] plot ({\x},{(0.6*\x)^2});
+    \draw (0,3) -- (4, 3);
+
+\end{tikzpicture}
+
+
+\end{document}

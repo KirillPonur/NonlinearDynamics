@@ -1,0 +1,115 @@
+\documentclass[tikz,10pt]{standalone}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian]{babel}
+% \usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{cmap,pgfplots,pgfplotstable}
+\usetikzlibrary{arrows,calc}
+\pgfplotsset{compat=newest}
+\usepackage[outline]{contour}
+\begin{document}
+
+% \pgfplotstableread{data.tsv}\mytable
+	\begin{tikzpicture}
+		\begin{axis}[
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%% НАСТРОЙКИ ГРАФИКА %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			height=8cm,
+			% width=10.5cm,
+			scale=0.7,
+			% grid=both, 				% вКлючаем отоБражение сетКи на графиКе
+			%
+			xlabel={$U$}, 			% ПодПись оси Y
+			ylabel={$y$}, 			% ПодПись оси X
+			%
+			major grid style={
+				line width=0.5pt, 	% толщина основных линий сетКи
+				draw=black!100, 		% цвет основных линий сетКи: 50% черного (80% Белого) 
+				draw=none,
+			},
+			%
+			minor grid style={
+				line width=0.5pt, 	% толщина Промежуточных линий сетКи
+				% draw=black!20,		% цвет Промежуточных линий сетКи
+				draw=none,
+			},
+			%
+			minor x tick num=0,		% Количество Промежуточных линий между основными
+			minor y tick num=0,		% Количество Промежуточных линий между основными
+			%
+ 			ticklabel style={
+ 				scale=0.80			% уменьшим размер ПодПисей метоК на осях
+ 			},    
+ 			%
+ 			%ticks=none,
+	    	axis lines=middle, 		% выравнивание оси y:  middle (в нуле)|left|right
+	    	%
+			% ymin = 7,				% маКсимумы и минимумы осей на графиКе
+			% ymax = 1.2,
+			% ymax = 0.28,
+			ymin = -0.7,
+			ymax= 1.2,
+    		x label style={
+    		at={(current axis.right of origin)}, 
+            xshift=1ex, anchor=center
+    		},
+			% enlargelimits=false,
+			% ymin = 7,	
+			% xmax = 8,
+			% xmin=-2,
+			% xmax=7.5,
+			% ymin=-2.1,
+			ymax=2.5,
+			ymin=-1,
+			%
+			% xtick distance=1,		% расстояние между метКами По оси X
+			% ytick distance=1/50,		% расстояние между метКами По оси Y
+			xticklabels={},
+			yticklabels={},
+			xtick=\empty,
+			ytick=\empty,
+			disabledatascaling,
+			% ymin={-11/16},
+			% extra y ticks={-9/16,-6/16},	% доПолнительные метКи на осях
+			extra x ticks={0,2,3},	% доПолнительные метКи на осях
+			extra x tick labels={	% можно уКазать сПециальные ПодПиси К ним
+			 		{$0$,$2V$,$3V$}
+			 	}, 	
+			axis x line=center,				
+			%
+			unit vector ratio = 1 1,% масштаБ 1:1 осей X и Y
+			% x={(1cm/1.3,0cm)}, y={(0cm,50cm/1.3)},
+			%
+			% x axis line style ={draw=none},
+			% x axis line style ={d},
+			x axis line style ={black!40},
+			y axis line style ={black!40},
+	      % y tick/.style={
+	      %   draw=none,
+	      %   % semithick,
+	      % },
+			% x label style={
+			% 	at={(axis description cs:1.05,0)},
+			% 	anchor=center,		% расПоложение метКи ровно в точКе (1.1,0)
+			% 	rotate=360,			% вооБще метКу еще можно Повернуть)
+			% 	black				% цвет метКи
+			% },
+    		y label style={
+    			% at={(axis description cs:0.01,1.07)},
+    			yshift=0.5em,
+    			anchor=center,		% расПоложение метКи ровно в точКе (0,1.1)
+    			black				% цвет метКи
+    		},			
+			%							
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%s%%%%%%%%%%%%%%%%%%%%
+			% stressstrainset
+		]
+		
+		\addplot[domain={-3:5},samples=700] {x^3/6-x^2/2};
+
+     \end{axis}
+	\end{tikzpicture}	
+\end{document}

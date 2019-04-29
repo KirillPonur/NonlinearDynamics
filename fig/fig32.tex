@@ -1,0 +1,26 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (-5,0) -- (5,0) node[right] {$\xi$};
+    \draw[->] (0,-0.2) -- (0,5) node[above] {$U$};
+    \draw [black, dashed, semithick] (-5,2.5) -- (5,2.5);
+    %\draw [black, semithick, domain=0:5,samples=200] plot (\x,  {2^(-\x+1.27)});
+    \draw[semithick] (4,0.01) to [out=180,in=0] (0, 2.4);
+    \draw [black, semithick] (0,2.4) -- (-3,2.48) ;
+    \coordinate [label=left:$2V$] (2V) at (0,2.8);
+    \coordinate [label=right:$\nu \ll 1$] (nu) at (3,5);
+    \coordinate [label=200:$0$] (0) at (0,0);
+
+\end{tikzpicture}
+
+
+\end{document}

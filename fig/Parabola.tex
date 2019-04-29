@@ -1,0 +1,19 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (-4,0) -- (8,0) node[right] {$U$};
+    \draw[->] (0,-2) -- (0,5) node[above] {$E_n$};
+    \draw[color=black,domain=-2:6,samples=200] plot ({\x},{(\x)^3/6-(\x)^2});
+\end{tikzpicture}
+
+
+\end{document}

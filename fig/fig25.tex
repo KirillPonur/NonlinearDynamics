@@ -1,0 +1,21 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (-1.1,0) -- (8,0) node[right] {$x$};
+    \draw[->] (0,-0.2) -- (0,5) node[above] {$U$};
+    \draw[->] (4,3) -- (5,3);
+    \draw [black, semithick, domain=-1:8,samples=200] plot (\x,  {4*exp(-(\x-3)^2)});
+
+\end{tikzpicture}
+
+
+\end{document}

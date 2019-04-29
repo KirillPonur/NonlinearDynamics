@@ -1,0 +1,95 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw(-2.2,0) -- (5,0);
+    \draw(0,-2) -- (0,2);
+	%фокус(-покус)
+    \draw[thick] (0,0) to [out=80,in=180] (2,1);
+    \draw[thick] (2,1) to [out=0,in=90] (3,0);
+    \draw[thick] (0,0) to [out=-80,in=180] (2,-1);
+    \draw[thick] (2,-1) to [out=0,in=-90] (3,0);
+    \draw[thick] [->] (2,1) --(2.01,1);
+    \draw[,thick] [<-] (2,-1) --(2.01,-1);    
+
+    \draw[thick] (0.5,0) to [out=80,in=180] (2,0.8);
+    \draw[thick] (2,0.8) to [out=0,in=90] (2.78,0);
+    \draw[thick] (0.5,0) to [out=-80,in=180] (2,-0.8);
+    \draw[thick] (2,-0.8) to [out=0,in=-90] (2.78,0);
+    \draw[thick] [->] (2,0.8) --(2.01,0.8);
+    \draw[thick] [<-] (2,-0.8) --(2.01,-0.8);
+
+    \draw[thick] (1,0) to [out=80,in=180] (2,0.5);
+    \draw[thick] (2,0.5) to [out=0,in=90] (2.6,0);
+    \draw[thick] (1,0) to [out=-80,in=180] (2,-0.5);
+    \draw[thick] (2,-0.5) to [out=0,in=-90] (2.6,0);
+    \draw[thick] [->] (2,0.5) --(2.01,0.5);
+    \draw[thick] [<-] (2,-0.5) --(2.01,-0.5);
+
+
+    \draw[thick] (1.5,0) to [out=80,in=180] (2,0.3);
+    \draw[thick] (2,0.3) to [out=0,in=90] (2.3,0);
+    \draw[thick] (1.5,0) to [out=-80,in=180] (2,-0.3);
+    \draw[thick] (2,-0.3) to [out=0,in=-90] (2.3,0);
+    \draw[thick] [->] (2,0.3) --(2.01,0.3);
+    \draw[thick] [<-] (2,-0.3) --(2.01,-0.3);
+	%седло
+	\draw[thick] (-0.4,1.2) -- (0,0);
+	\draw[thick] (-0.4,-1.2) -- (0,0);
+	\draw[thick] (-0.4,0.8) to [out=-80,in=90] (-0.28,0);
+	\draw[thick] (-0.4,-0.8) to [out=80,in=-90] (-0.28,0);
+	\draw[thick] [->]  (-0.4,0.8) -- (-0.3,0.33);
+	\draw[thick] [->] (-0.4,1.2) --(-0.27,0.8);
+	\draw[thick] [<-] (-0.35,-1.07) --(-0.268,-0.8);
+	%не имеющие физ смысла
+	\draw[thick] (-0.4,1.5) to [out=-80,in=180] (0,1);
+	\draw[thick] (0,1) to [out=0,in=-180] (2,1.3);
+	\draw[thick] (2,1.3) to [out=0,in=90] (3.4,0);
+	\draw[thick] (-0.4,-1.5) to [out=80,in=180] (0,-1);
+	\draw[thick] (0,-1) to [out=0,in=-180] (2,-1.3);
+	\draw[thick] (2,-1.3) to [out=0,in=-90] (3.4,0);
+	\draw[thick] [->] (2,1.3) --(2.01,1.3);
+	\draw[thick] [<-] (2,-1.3) --(2.01,-1.3);
+    %поток траекторий
+    \draw[gray, thick] [->] (2,0.4) --(2.3,0.6);
+    \draw[gray, thick] [->] (2.4,0.3) --(2.7,0.5);
+    \draw[gray, thick] [->] (1.7,0.8) --(2.1,1.1);
+    \draw[gray, thick] [->] (2.1,0.1) --(2.35,0.3);
+    \draw[gray, thick] [->] (2.1,-0.8) --(1.8,-1.1);
+    \draw[gray, thick] [->] (1.8,-0.4) --(1.5,-0.7);
+    \draw[gray, thick] [->] (1.4,-0.8) --(1.1,-1);
+    %ветви
+    \draw[red, thick] (-0.5,1) to [out=-50,in=110] (-0.25,0.5);
+    \draw[red, thick] (-0.25,0.5) to [out=-70,in=120] (0,0);
+    \draw[red, thick] (0,0) to [out=-60,in=180] (1.3,-0.5);
+    \draw[red, thick] (1.3,-0.5) to [out=0,in=-90] (2.2,0);
+    \draw[red, thick] (2.2,0) to [out=90,in=0] (2,0.17);
+    \draw[red, thick] (2,0.17) to [out=180,in=90] (1.83,0);
+    \draw[thick] [red, ->] (-0.25,0.51) --(-0.24,0.49);
+    \draw[thick] [red, ->] (0.25,-0.255) --(0.24,-0.245);
+
+    \draw[cyan, thick] (-0.25,-1) to [out=70,in=-100] (-0,0);
+    \draw[cyan, thick] (-0,0) to [out=80,in=-180] (2,1.8);
+    \draw[cyan, thick] (2,1.8) to [out=0,in=90] (4.2,0);
+    \draw[thick] [cyan, ->] (0.2,0.63) --(0.25,0.75);
+    \draw[thick] [cyan, ->] (0,0) --(-0.16,-0.75);
+
+    % \coordinate [label=center:$1$] (1) at (1,0);
+    \draw[red] (-0.5,1) node[left] {$stable$};
+    \draw[cyan] (5.8,0.3) node[left] {$unstable$};
+    \coordinate [label=right:$\nu \ll 1$] (nu) at (3,2);
+    \draw [fill] (2,0) circle [radius=0.01];
+    \draw [fill] (2.6,0) circle [radius=0.03];
+    \draw [fill] (3,0) circle [radius=0.03];
+\end{tikzpicture}
+
+
+\end{document}
