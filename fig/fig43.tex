@@ -1,0 +1,27 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (-3,0) -- (3,0) node[right] {$U_1$};
+    \draw[->] (0,-1.5) -- (0,3) node[above] {$U_2$};
+    \draw [black, dashed, semithick] (0,1.5) -- (2.5,1.5);
+    \draw [black, dashed, semithick] (2.5,1.5) -- (2.5,0);
+    \draw [black, dashed, semithick] (-2.8,-1) -- (-2.8,0);
+    \draw [black, dashed, semithick] (-2.8,-1) -- (0,-1);
+    \draw [black, thick] [->] (0,0) -- (2.5,1.5);
+    \draw [black, thick] [->] (0,0) -- (-2.8,-1);
+    \coordinate [label=left:$1$] (3) at (1.8,1.2);
+    \coordinate [label=left:$2$] (4) at (-1.9,-0.5);
+    
+\end{tikzpicture}
+
+
+\end{document}

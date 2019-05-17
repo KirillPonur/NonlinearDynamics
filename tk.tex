@@ -1156,4 +1156,347 @@ $-1<|s_1|<0, |s_2|<-1$:
 
 Вектор прижимается к оси координат и растягивается.
 
+29.04
+
+Рассмотрим комплексно-сопряженные корни. Линейным преобразованием систему можно привести к нормальной форме.
+\begin{equation}
+	U_j(T)=s_j U_j(0), ~j=1,2.
+	\label{eq:69}
+\end{equation}
+
+$|s|<1$ - длина вектора меняется.
+\begin{equation}
+	s_j=\alpha \pm i\beta.
+	\label{eq:70}
+\end{equation}
+Поскольку мультипликаторы являются комплексно сопряженными, переменные $U_j(T), U_j(0)$ являются комплексными функциями. 
+\begin{gather}
+	U_j(0)=U(0)\pm iV(0) \notag \\ 
+	U_j(T)=U(T)\pm iV(T).		
+	\label{eq:71}
+\end{gather}
+
+Подставляя \eqref{eq:70}, \eqref{eq:71} в \eqref{eq:69} и разделяя реальную и мнимую части, получим:
+\begin{gather}
+	U(T)=\alpha U(0)- \beta V(0) \notag \\ 
+	V(T)=\beta U(0)+ \alpha V(0).		
+	\label{eq:72}
+\end{gather}
+\begin{gather*}
+	U=\rho \cos{\phi}, V=\rho \sin{\phi}, \\ 
+	s=\alpha \pm i\beta=|s|e^{\pm i \omega}, \\
+	|s|=\sqrt{\alpha^2+\beta^2},		
+\end{gather*}
+\begin{gather}
+	\alpha=|s|\cos{\omega} \notag \\ 
+	\beta=|s|\sin{\omega}.		
+	\label{eq:73}
+\end{gather}
+\begin{equation}
+	\begin{cases}
+		\rho(T)\cos{\phi(T)}=\alpha \rho(0)\cos{\phi(0)}-\beta \rho(0)\sin{\phi(0)} \\
+		\rho(T)\sin{\phi(T)}=\beta \rho(0)\cos{\phi(0)}+\alpha \rho(0)\sin{\phi(0)}.
+	\end{cases}
+	\label{eq:74}
+\end{equation}
+Из этой системы находят $\rho(T)$ и $\phi(T)$:
+\begin{equation}
+	\begin{cases}
+		\phi(T)=\phi(0)+\omega \\
+		\rho(T)=|s|\rho(0).
+	\end{cases}
+	\label{eq:75}
+\end{equation}
+
+Эта система задает отображение $g^T$. Полярный угол $\phi$ меняется за период на $\omega$, а начальная величина вектора $\rho(0)$ изменяется в зависимости от s. 
+
+Если $|s|<1$:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.35\linewidth]{fig/fig38.pdf}   
+\end{figure}
+
+Вектор поворачивается на угол $\omega$ и сокращается в длину. Состояние равновесия и соответствующая ему неподвижная точка $x_1=x_2=0$ являются асимптотически устойчивыми.
+
+$|s|>1$:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.35\linewidth]{fig/fig39.pdf}   
+\end{figure}
+
+Состояние равновесия неустойчивое, вектор поворачивается и растягивается.
+
+$|s|=1$:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.35\linewidth]{fig/fig40.pdf}   
+\end{figure}
+
+Вектор поворачивается, длина его не меняется. 
+
+Вектор, пройдя период, может либо совпасть с начальным, либо нет. В зависимости от этого решение будет периодическим или квазипериодическим.
+
+Таким образом, состояние равновесия или периодическая траектория любого периода в параметрической системе может быть устойчивой либо не устойчивой.
+
+\subsection{Основные режимы линейной параметрической системы}
+
+Поскольку система линейная, из условия устойчивости состояния равновесия вытекают все остальные свойства линейных параметрических систем, а именно:
+\begin{enumerate} 
+	\item Параметрическая система, находящаяся в начальный момент в состоянии равновесия, останется в этом состоянии при $\forall t>0$, поскольку состояние равновесия $x_1=x_2=0$ существует всегда в линейной системе. Параметрическую систему, находящуюся в состоянии равновесия, нельзя вывести из этого состояния, изменяя ее параметры. Пример - маятник на нитке: дергая за нитку, маятник нельзя раскачать;
+	\item Состояние равновесия параметрической системы может быть как устойчивым, так и не устойчивым;
+	\item Если параметры системы таковы, что она неустойчива и система выведена из состояния равновесия, то в ней возникают колебания, амплитуда которых экспоненциально возрастает. Этот процесс возрастания размахов колебаний при периодическом нарастании колебаний, называется параметрическим резонансом.
+\end{enumerate} 
+
+\subsection{Параметрические колебания. Резонанс.}
+Установим условие существования параметрического резонанса в одном частном, но важном случае. Рассмотрим систему \eqref{eq:47} в случае $p_{11}(t) \equiv0, p_{12}(t)\equiv 1, p_{22}(t) \equiv 0$, тогда система примет вид:
+\begin{equation}
+	\begin{cases}
+		\dot{x_1}=x_2 \\
+		\dot{x_2}=p_{21}(t)x_1.
+	\end{cases}
+	\label{eq:76}
+\end{equation}
+
+Система \eqref{eq:76} охватывает уравнения Матье и Хилла. 
+
+Поведение системы определяют мультипликаторы, а они, в свою очередь, определяются характеристическим уравнением:
+\begin{gather*}
+	s^2-(a+d)s+(ad-bc)=0, \\
+	ad-bc=exp\qty[\int_0^T(p_{11}(t)+p_{22}(t))dt]=1.		
+\end{gather*}
+
+Фактически, варьируются только коэффициенты a и d. Введем: $2P=a+d$ - контрольный параметр.
+\begin{gather*}
+	s^2-2Ps+1=0.		
+\end{gather*}
+
+Проанализируем поведение s.
+Пусть $|P|<1$
+\begin{gather*}
+	s_{1,2}=P\pm i\sqrt{1-P^2}, \\
+	|s|=1.		
+\end{gather*}
+
+Неподвижная точка отображения $g^T$ будет эллиптической. 
+
+Достаточно рассмотреть только $x_1(t)$:
+\begin{equation}
+	x_1(t)=c_1e^{\lambda_1 t}\Phi_{11}(t)+c_2e^{\lambda_2 t}\Phi_{12}(t).
+	\label{eq:77}
+\end{equation}
+
+Поскольку $|s|=1$, характеристические показатели $\lambda$ связаны с s: $\lambda_1=\frac{q}{T}i,~\lambda_2=-\frac{q}{T}i$, где $q=|arg(s_j)+2\pi k|$ (из формулы \eqref{eq:64}). $\lambda$ чисто мнимые, x действительные, следовательно, $c_1, c_2, \Phi_{11}, \Phi_{12}$ должны быть комплексными:
+\begin{equation}
+	\begin{cases}
+		c_1=\frac{A}{2}e^{ic} \\
+		c_2=\frac{A}{2}e^{-ic} \\
+		\Phi_{11}=h(t)e^{i\varkappa(t)} \\
+		\Phi_{12}=h(t)e^{-i\varkappa(t)}.
+	\end{cases}
+	\label{eq:78}
+\end{equation}
+
+Подставляя \eqref{eq:78} в \eqref{eq:77}, получим:
+\begin{equation}
+	x_1(t)=Ah(t)\cos (\frac{q}{T}t+c+\varkappa(t)).
+	\label{eq:79}
+\end{equation}
+
+Вспомним косинус суммы, чтобы выделить соответственные временные масштабы. $h(t)$ и $\varkappa(t)$ периодичны с периодом T (из теории Флоке). T - период изменения параметров.
+\begin{equation}
+	x_1(t)=H(t)\cos{(\frac{q}{T}t+c)}+F(t)\sin{(\frac{q}{T}t+c)}.
+	\label{eq:80}
+\end{equation}
+\begin{gather*}
+	H(t)=Ah(t)\cos \varkappa(t), \\
+	F(t)=-Ah(t)\sin \varkappa(t).		
+\end{gather*}
+
+В \eqref{eq:80} $H(t)$ и $F(t)$ периодичны с периодом T. Есть два временных масштаба: $T_1=T$ и $T_2=\frac{2\pi}{q}T$, которым отвечают частоты $\omega_1$ и $\omega_2$ соответственно.
+
+$\frac{\omega_1}{\omega_2}=\frac{2\pi}{q}$, откуда вытекает, что, если $\frac{2\pi}{q}$ - рациональное число, то $x_1(t)$ - периодическая функция, если иррациональное, то $x_1(t)$ - квазипериодическая функция. Таким образом, при выполнении $P>1$, в системе \eqref{eq:76} реализуются ограниченные колебания, которые называются параметрическими.
+
+Пусть $|P|>1$.
+
+Из характеристического уравнения $s_1 \cdot s_2=1$, они действительны. Для определенности $|s_1|>1,~ |s_2|<1$.
+
+Пусть $P>1$. Действует отображение $g^T$:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.35\linewidth]{fig/fig41.pdf}   
+\end{figure}
+
+По переменной $U_1$ увеличение вектора, по $U_2$ - уменьшение. Процесс повторяется. Вектор вытягивается и прижимается к оси абсцисс. Если $n\rightarrow \infty$ (число итераций): $U_2(nT)\rightarrow 0,~U_1(nT)\rightarrow \infty$. В системе реализуется параметрический параметрический резонанс. 
+
+Получим приближенное соотношение для $x_1(t)$:
+\begin{gather*}
+	\lambda_1=\frac{1}{T}ln(s_1)>0, \\
+	\lambda_2=\frac{1}{T}ln(s_2)=\frac{1}{T}ln(\frac{1}{s_1})=-\frac{1}{T}ln(s_1)<0.
+\end{gather*}
+
+Функция Флоке ограниченная
+\begin{equation*}
+	x_1(t)\approx c_1 e^{\frac{1}{T}ln(s_1)t}\Phi_{11}(t).
+\end{equation*}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{fig/fig42.pdf}   
+\end{figure}
+
+В начальный момент система должна быть выведена из равновесия. Это геометрическая прогрессия, экстремумы функции лежат на экспоненте. 
+\begin{itemize}
+	\item В линейном осцилляторе экстремумы на прямых;
+	\item Если линейный осциллятор в покое, мы можем его раскачать;
+\end{itemize}
+
+Пусть $s_1,s_2<0,~|s_1|>1,~|s_2|<1$:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{fig/fig43.pdf}   
+\end{figure}
+
+Вектор вернется через 2 итерации, период 2T, экстремумы отстоят на период.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{fig/fig44.pdf}   
+\end{figure}
+
+Пусть $|P|=1$. В этом случае, если $P=1$, то $s_1=s_2=1$; если $P=-1$, то $s_1=s_2=-1$. Корни кратные, мы такое не рассматривали. Решение в этом случае задается в виде:
+\begin{gather*}
+	x_1(t)=c_1 e^{\lambda t}\Phi(t)+c_2te^{\lambda t}\Phi(t), \\
+	\lambda=\frac{1}{T}ln|s|.
+\end{gather*}
+
+На границе неустойчивость и состояние равновесия $x_1=x_2=0$ является неустойчивым.
+
+\subsection{Параметрические колебания маятника}
+\begin{equation}
+	\ddot{\varphi}+2\delta \dot{\varphi}+\frac{g}{l(t)}\varphi=0.
+	\label{eq:81}
+\end{equation}
+
+Рассмотрим маятник, у которого длина периодически меняется, $\delta$ характеризует диссипацию. Кусочно-линейная аппроксимация. $l(t+T)=l(t)$.
+
+Будем считать, длина меняется мгновенно:
+\begin{equation*}
+	l(t)=
+	\begin{cases}
+		l_0-\frac{a}{2}, 0 \leq t \leq \frac{T}{2} \\
+		l_0+\frac{a}{2}, \frac{T}{2} \leq t \leq T		
+	\end{cases}
+\end{equation*}
+
+далее периодично. Получается меандр.
+\begin{equation*}
+	l_0=\frac{a}{2}>0,~\omega_1^2=\frac{g}{l_0-\frac{a}{2}},~\omega_2^2=\frac{g}{l_0+\frac{a}{2}}.
+\end{equation*}
+
+Рассмотрим консервативный случай ($\delta=0$). Перепишем \eqref{eq:81} в виде:
+\begin{equation}
+	\begin{cases}
+		\dot{\varphi}=y \\
+		\dot{y} =-\omega^2(t)\varphi.	
+	\end{cases}
+	\label{eq:82}
+\end{equation}
+\begin{equation}
+	\omega^2(t)=
+	\begin{cases}
+		\omega^2_1, 0 \leq t \leq \frac{T}{2} \\
+		\omega^2_2, \frac{T}{2} \leq t \leq T		
+	\end{cases}
+	\label{eq:83}	
+\end{equation}
+
+\eqref{eq:82} является частным случаем рассмотренного выше, где $p_{21}=\omega^2(t)$. Для построения областей надо построить границы $P=\pm 1$, найдя a,d. Они являются элементами матрицы G. которая задает $g^T$. Поскольку система является кусочно-линейной, можно представить: $G=G_1\cdot G_2$, где $G_1$ действует на интервале от 0 до $\frac{T}{2}$, $G_2$ от $\frac{T}{2}$ до $T$. 
+
+\underline{Матрица $G_1$:}
+
+$\omega^2(t)\equiv\omega_1^2$
+
+Решая \eqref{eq:82}:
+\begin{gather*}
+	\varphi_1(t)\equiv A_1 \cos(\omega_1 t) + B_1\sin(\omega_1 t), \\
+	\varphi_2(t)\equiv -A_1 \sin(\omega_1 t) + \omega_1 B_1\cos(\omega_1 t).
+\end{gather*}
+
+Положим: $\varphi_1(0)=1,~\varphi_2(0)=0$. $A_1=1,~B_1=0$. Искомое решение примет вид: 
+\begin{equation}
+	\begin{cases}
+		\varphi_1(t) = \cos(\omega_1 t) \\
+		\varphi_2(t) = -\sin(\omega_1 t).		
+	\end{cases}
+	\label{eq:84}	
+\end{equation}
+
+Аналогично находится второе решение:
+\begin{gather}
+	\psi_1(0)=0, \psi_2(0)=1, \notag \\
+	\begin{cases}
+		\psi_1(t) = \frac{\sin(\omega_1 t)}{\omega_1} \\
+		\psi_2(t) = \cos(\omega_1 t).		
+	\end{cases}
+	\label{eq:85}	
+\end{gather}
+
+Подставляя $t=\frac{T}{2}$, найдем элементы $G_1$:
+\begin{equation}
+	\begin{cases}
+		a_1 = \cos(\omega_1 \frac{T}{2}) \\
+		b_1 = -\omega_1 \sin(\omega_1 \frac{T}{2}) \\
+		c_1 = \frac{\sin(\omega_1 \frac{T}{2})}{\omega_1} \\
+		d_1 = \cos(\omega_1 \frac{T}{2}),	
+	\end{cases}
+	\label{eq:86}	
+\end{equation}
+\begin{gather*}
+	G_1= 
+	\begin{pmatrix}
+		\cos \alpha~~~~~\frac{\sin\alpha}{\omega_1} \\
+		-\omega_1 \sin \alpha~~\cos \alpha
+	\end{pmatrix}
+	, 
+	\alpha=\omega_1 \frac{T}{2}.	
+\end{gather*}
+
+\underline{Матрица $G_2$:}
+Вид устанавливается аналогично:
+\begin{gather*}
+	G_1= 
+	\begin{pmatrix}
+		\cos \beta~~~~~\frac{\sin\beta}{\omega_2} \\
+		-\omega_2 \sin \beta~~\cos \beta
+	\end{pmatrix}
+	, 
+	\beta=\omega_2 \frac{T}{2}.	
+\end{gather*}
+
+\underline{ $G_1\cdot G_2$:}
+
+Получили матрицу, элементы которой имеют вид:
+\begin{gather*}
+	a=\cos \alpha \cdot \cos \beta -\frac{\omega_1}{\omega_2} \sin \alpha \cdot \sin \beta, \\
+	b=-\omega_2 \cos \alpha \cdot \sin \beta - \omega_1 \sin \alpha \cdot \sin \beta, \\
+	c=\frac{\sin \alpha \cdot \cos \beta}{\omega_1}+\frac{\cos \alpha \cdot \sin \beta}{\omega_2}, \\
+	d=\cos \alpha \cdot \cos \beta-\frac{\omega_2}{\omega_1}\sin \alpha \cdot \sin \beta,
+\end{gather*}
+\begin{equation}
+	2P=a+d=2\cos \alpha\cdot \cos \beta - \frac{\omega_1^2+\omega_2^2}{\omega_2 \omega_1} \sin \alpha \cdot \sin \beta.
+	\label{eq:87}	
+\end{equation}
+
+Введем более физичные параметры: собственная частота, если бы длина не менялась: $\omega_0^2=g/l_0$; период, если бы длина не менялась: $T_0=2\pi /\omega_0$; глубина параметрической модуляции: $\varepsilon=a/2l_0$; отношение собственного периода к периоду параметрической накачки: $\gamma=T/T_0$. Тогда:
+\begin{gather*}
+	\alpha=\frac{\pi \gamma}{\sqrt{1-\epsilon}},~\beta=\frac{\pi \gamma}{\sqrt{1+\epsilon}},~\frac{\omega_1^2+\omega_2^2}{\omega_2 \omega_1}=\frac{2}{\sqrt{1-\epsilon^2}},~\varepsilon<1.
+\end{gather*}
+
+Если $\varepsilon=0$, то параметрической модуляции нет.
+\begin{equation}
+	P=\cos(\frac{\pi \gamma}{\sqrt{1-\epsilon}}) \cos (\frac{\pi \gamma}{\sqrt{1+\epsilon}}) - \frac{1}{\sqrt{1-\epsilon^2}} \sin(\frac{\pi \gamma}{\sqrt{1-\epsilon}}) \sin (\frac{\pi \gamma}{\sqrt{1+\epsilon}}).
+	\label{eq:88}	
+\end{equation}
+
+
+
+
 \end{document}{}
