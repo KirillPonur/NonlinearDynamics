@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1560882550 "tk.tex" "tk.pdf" "tk" 1560882553
+["pdflatex"] 1560892164 "tk.tex" "tk.pdf" "tk" 1560892167
   "c:/Users/1/.texlive2018/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1537296832 3312 d199be9bd555944e2403193d58a0256a ""
   "c:/Users/1/.texlive2018/texmf-var/fonts/tfm/lh/lh-t2a/labx2074.tfm" 1545570275 3316 0992aa03d0c75498a0b6fb905d9eaab6 ""
   "c:/Users/1/.texlive2018/texmf-var/fonts/tfm/lh/lh-t2a/larm0700.tfm" 1541175286 3256 b15a2ce2310c0038b96c5235b038f0eb ""
@@ -192,16 +192,18 @@
   "fig/fig63.pdf" 1560859463 33187 b0a93f72072eee66d79843c92e1151e1 ""
   "fig/fig64.pdf" 1560879278 25670 de544ecd21351fe2fef9edd3a7b979bc ""
   "fig/fig65.pdf" 1560882044 18575 94b0709db5f6b0b31e921f0c8178c0d1 ""
+  "fig/fig66.pdf" 1560890621 17681 84771e8c614c84167c5832c15dd28c95 ""
+  "fig/fig67.pdf" 1560891679 33786 c073d4124e95e46dac9c828641470c39 ""
   "fig/fig7.pdf" 1555355168 192217 7947eca222df9273acc889f71f7e883a ""
   "fig/fig8.pdf" 1555502227 125434 ae2b34bf8966e3efab7acca1f26a8ca0 ""
   "fig/fig9.pdf" 1555510985 269283 becb957a25c697d151bb6cfd16762506 ""
   "nul" 0 0 d41d8cd98f00b204e9800998ecf8427e ""
   "preambule.tex" 1555096899 5444 6fc9ec098aa79ae71d875de57e802032 ""
-  "tk.aux" 1560882552 29307 dbefd75d5948ed7c3233b47eaa448594 ""
-  "tk.out" 1560882552 9082 20e6477e75262638013d1bf87e9e5aaf ""
-  "tk.tex" 1560882549 102032 c4afacb1c90081e9cfa29ee009f1f335 ""
+  "tk.aux" 1560892166 30145 ccd55ef0f8050a30795daf9320f3db9b ""
+  "tk.out" 1560892166 9592 e6573f41f4d504913f112fb5dfdf54b4 ""
+  "tk.tex" 1560892163 103804 632c2c44cae7b7e52d1b16cbd76b56d4 ""
   (generated)
-  "tk.pdf"
   "tk.log"
-  "tk.aux"
   "tk.out"
+  "tk.pdf"
+  "tk.aux"
