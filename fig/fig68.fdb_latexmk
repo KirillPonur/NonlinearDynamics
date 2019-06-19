@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1560943854 "fig68.tex" "fig68.pdf" "fig68" 1560943855
+["pdflatex"] 1560971508 "fig68.tex" "fig68.pdf" "fig68" 1560971509
   "c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1537284011 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1537284011 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1537284011 32762 7fee39e011c23b3589931effd97b9702 ""
@@ -109,9 +109,9 @@
   "c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1537291230 3001863 059c97b2fe3b78bc46a9a9a9cb1c8e90 ""
   "c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1537291371 4217549 abce564eb9c87431e6215e3a0a7b4cca ""
   "c:/texlive/2018/texmf.cnf" 1537291205 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "fig68.aux" 1560943855 8 a94a2480d3289e625eea47cd1b285758 ""
-  "fig68.tex" 1560943853 3549 6b80785e0c498fe430cf5cd628084e89 ""
+  "fig68.aux" 1560971509 8 a94a2480d3289e625eea47cd1b285758 ""
+  "fig68.tex" 1560971507 3762 503c1d542eddcca0384e3ceb256d2320 ""
   (generated)
   "fig68.log"
-  "fig68.aux"
   "fig68.pdf"
+  "fig68.aux"

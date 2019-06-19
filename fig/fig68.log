@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  19 JUN 2019 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  19 JUN 2019 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,7 +474,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Here is how much of TeX's memory you used:
  12863 strings out of 492641
  272516 string characters out of 6133116
- 296135 words of memory out of 5000000
+ 296429 words of memory out of 5000000
  16510 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -483,7 +483,7 @@ Here is how much of TeX's memory you used:
 0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/201
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on fig68.pdf (1 page, 32822 bytes).
+Output written on fig68.pdf (1 page, 32889 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
