@@ -1,0 +1,212 @@
+\documentclass[a4paper,14pt]{extarticle}
+
+% Шрифты, кодировки, символьные таблицы, переносы
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, russian]{babel}
+
+% Пакеты американского математического сообщества
+\usepackage{amssymb,amsfonts,amsmath,amsthm}  
+% Сокращения
+\usepackage{cancel}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}
+
+% Красная строка
+\usepackage{indentfirst}
+
+% Ссылки в pdf 
+\usepackage[unicode, colorlinks, urlcolor=magenta, linkcolor=black]{hyperref}
+
+% Таблицы
+\usepackage{makecell,multirow} 
+
+% Графика
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{color} 
+\usepackage{float}
+
+% Геометрия страницы
+\usepackage{geometry}
+\geometry{left=2cm,right=2cm,top=2.5cm,bottom=2.5cm,bindingoffset=0cm,headheight=18pt}
+
+% Колонтитулы
+\usepackage{fancyhdr} 
+% применим колонтитул к стилю страницы
+\pagestyle{fancy} 
+%очистим "шапку" страницы
+\fancyhead{} 
+%слева сверху на чётных и справа на нечётных
+\fancyhead[R]{Лекции В.И. Некоркина 2018-2019} 
+% \fancyhead[R]{Сарафанов Ф.Г., Понур К.А. и др.} 
+%справа сверху на четных и слева на нечетных
+\fancyhead[L]{Теория колебаний} 
+%очистим "подвал" страницы
+\fancyfoot{} 
+% номер страницы в нижнем колонтитуле в центре
+\fancyfoot[C]{\thepage} 
+
+% Междустрочный отступ
+\usepackage{setspace}
+\linespread{1.15} % капельку увеличенный
+\frenchspacing % <<французские>> пробелы
+
+% Нумерация
+\renewcommand{\labelenumii}{\theenumii)}
+% В заголовках появляется точка, но при ссылке на них ее нет
+\usepackage{misccorr}
+
+% Содержание
+\usepackage{tocloft}
+\usepackage{secdot}
+\sectiondot{subsection}
+
+% Физика
+\usepackage{physics}
+
+% Новые команды
+\newcommand{\Mean}[1]{\langle#1\rangle}
+\newcommand{\Defi}{\underset{def}{=}}
+\newcommand{\Inte}{\int\limits_{-\infty}^{\infty}} 
+\newcommand{\const}{\textrm{const}}
+
+\addto\captionsrussian{%
+	\renewcommand{\contentsname}{Оглавление}
+	\renewcommand{\partname}{Раздел}%
+}
+\def\thepart{\arabic{part}}
+\usepackage{tocloft}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for chapters
+\renewcommand\thepart{\arabic{part}.}
+
+\renewcommand{\cftsecaftersnum}{.}
+
+\renewcommand{\cftsecdotsep}{\cftdotsep}
+\renewcommand{\kappa}{\varkappa}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+% #1: math symbol
+% #2: legend
+\def\alegend#1#2{\overset{\underset{\scriptstyle\downarrow}{\scriptstyle\text{#2}}}{#1}}
+\def\blegend#1#2{\underset{\underset{\scriptstyle\text{#2}}{\scriptstyle\uparrow}}{#1}}
+\def\hp{\hat{p}}
+\def\hx{\hat{x}}
+\def\hH{\hat{H}}
+
+\usepackage[explicit]{titlesec}
+\usepackage{epigraph}
+
+
+\newcommand\praktika[1]{
+\stepcounter{section}
+\vspace{1.5em}
+\noindent\textbf{\Large{Занятие \arabic{section}.\hspace{.2em} #1}}
+% \newline 
+\vspace{-0.5em}
+\addcontentsline{toc}{section}{Занятие \arabic{section}.\hspace{.5em} #1}
+}
+
+\usepackage{mathtools}
+% \mathtoolsset{showonlyrefs=true}
+
+
+% https://tex.stackexchange.com/questions/8720/overbrace-underbrace-but-with-an-arrow-instead
+
+\usepackage{xparse}% http://ctan.org/pkg/xparse
+
+\NewDocumentCommand{\overarrow}{O{=} O{\uparrow} m}{%
+  \overset{\makebox[0pt]{\begin{tabular}{@{}c@{}}$#3$\\[0pt]\ensuremath{#2}\end{tabular}}}{#1}
+}
+\NewDocumentCommand{\underarrow}{O{=} O{\downarrow} m}{%
+  \underset{\makebox[0pt]{\begin{tabular}{@{}c@{}}\ensuremath{#2}\\[0pt]$#3$\end{tabular}}}{#1}
+}
+
+\newcommand\undernoteqty[2]{
+	%
+	\underarrow[
+		\qty(\underbrace{#1})
+	][\uparrow]{\substack{#2}}
+	%
+}
+
+\newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
+% Нормальный вектор для штрихов
+\newcommand{\phat}[1]{\hat{#1}\mkern2mu\vphantom{#1}}
+
+\newcommand\undernote[2]{
+	%
+	\underarrow[
+		#1
+	][\uparrow]{\substack{#2}}
+	%
+}
+
+
+
+% ##############################################################################
+\newcommand*\dotvec[1][1,1]{\crossproducttemp#1\relax}
+\def\crossproducttemp#1,#2\relax{{\qty[\vec{#1}\times\vec{#2}\,]}}
+
+\newcommand*\prodvec[1][1,1]{\crossproducttempa#1\relax}
+\def\crossproducttempa#1,#2\relax{{\qty[{#1}\times{#2}\,]}}
+% ##############################################################################
+\usepackage{kbordermatrix}%
+\renewcommand{\kbldelim}{(} % change default array delimiters to parentheses
+\renewcommand{\kbrdelim}{)}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Rot}{rot}
+\newcommand{\markerr}{\textcolor{red}{\textbf{??}}} 
+\usepackage{wrapfig,dsfont}
+\begin{document}
+\input{titlepage}
+
+\newpage
+\tableofcontents 
+
+\newpage
+\section{Колебания и волны в цепочке взаимосвязанных тождественных осцилляторов}
+\label{sec:osci_and_wave_in_ordered_struct}
+	% 08.04.19
+	\input{text/osci_and_wave_in_ordered_struct}
+
+\newpage
+\section{Диффузионная неустойчивость. Структура Тьюринга}
+\label{sec:diffusion_instability}
+	% 15.04.19
+	\input{text/diffusion_instability}
+
+
+
+\newpage
+\section{Стационарные волны в консервативных и автоколебательных распределенных системах}
+\label{sec:volnu}
+	\subsection{Солитоны в уравнении Кортевега - де Фриза}
+	\label{ssec:soliton}
+		\input{text/soliton}
+
+	\subsection{Стационарные ударные волны}
+	\label{ssec:shock_waves}
+		\input{text/shock_waves}
+
+\newpage
+\section{Параметрические колебания}
+\label{sec:parametric_oscillations}
+% 29.04.19 
+	\input{text/parametric_oscillations}
+	
+	\subsection{Динамика маятника с вибрирующей точкой подвеса. Маятник Капицы}
+	\label{ssec:kap_pendulum}
+	% 29.04.19 
+		\input{text/kap_pendulum}
+
+\newpage
+\section{Введение в теорию многомерных динамических систем}
+\label{sec:multidimensional_dynamic_systems}
+% 29.04.19 
+	\input{text/multidimensional_dynamic_systems}
+
+
+\end{document}
