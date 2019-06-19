@@ -1,0 +1,7 @@
+mkdir diffusion_instability
+mkdir kap_pendulum
+mkdir multidimensional_dynamic_systems
+mkdir osci_and_wave_in_ordered_struct
+mkdir parametric_oscillations
+mkdir shock_waves
+mkdir soliton
