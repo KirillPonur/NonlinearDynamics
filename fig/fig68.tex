@@ -1,0 +1,55 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+
+\usetikzlibrary{decorations.pathreplacing,decorations.markings,arrows}
+\begin{tikzpicture}
+    %\mu<0
+    \coordinate [label=-90:$\mu<0$] (8) at (3,8.6);
+
+    \draw[semithick] [->] (0.5,4) -- (6,4) node[right] {$\xi$};
+    \draw[semithick] [->] (3,0.5) -- (3,7) node[left] {$\stackrel{=}{\xi}$};
+    % \draw [black, semithick, domain=0:6,samples=200] plot (\x,  {1+0.2*(\x)^2+0.05*(\x)});
+    \draw [color={rgb,255:red,25; green,25; blue,112},thick] (0.2, 2) to [out=40,in=-170] (3,4) to [out=10,in=-140] (5.8,6);
+    \draw [black, dashed, color={rgb,255:red,0; green,128; blue,0},] (0,1) -- (6.5, 7.5);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] [->] (5.4,4.9) -- (5.4,5.3);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] (5.4,4) -- (5.4,5.65) --(4.65,5.65) -- (4.65,4.89) -- (3.89,4.89) -- (3.89,4.3) -- (3.3,4.3) -- (3.3,4.07);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] [->] (1,3.5) -- (1,3.2);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] (1,4) -- (1,2.75) --(1.75, 2.75) -- (1.75,3.45) -- (2.45,3.45) -- (2.45,3.85) -- (2.85,3.85);
+    \draw [fill,color={rgb,255:red,176; green,63; blue,53}] (3,4) circle [radius=0.05];
+	%\mu=0
+    \coordinate [label=-90:$\mu \equiv0$] (8) at (9.5,8.6);
+
+    \draw[semithick] [->] (7,4) -- (12.5,4) node[right] {$\xi$};
+    \draw[semithick] [->] (9.5,0.5) -- (9.5,7) node[left] {$\stackrel{=}{\xi}$};
+    \draw [black, dashed, color={rgb,255:red,0; green,128; blue,0},] (7,1.5) -- (12, 6.5);
+    \draw [color={rgb,255:red,25; green,25; blue,112},thick] (7, 3) to [out=1,in=-140] (9.5,4) to [out=40,in=180] (12,5);
+    % \draw [fill,color={rgb,255:red,176; green,63; blue,53}] (9.5,4) circle [radius=0.05];
+    %\mu>0
+    \coordinate [label=-90:$\mu>0$] (8) at (16,8.6);
+
+    \draw[semithick] [->] (13.5,4) -- (19,4) node[right] {$\xi$};
+    \draw[semithick] [->] (16,0.5) -- (16,7) node[left] {$\stackrel{=}{\xi}$};
+    \draw [black, dashed, color={rgb,255:red,0; green,128; blue,0},] (13,1) -- (19, 7);
+    \draw [black, dashed] (14.3,2.3) -- (14.3, 4);
+    \draw [black, dashed] (17.7,5.7) -- (17.7, 4);
+    \draw [color={rgb,255:red,25; green,25; blue,112},thick] (13, 2) to [out=10,in=-94] (16,4) to [out=86,in=190] (19,6);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] (13.5,4) -- (13.5,2.1) --(14.1,2.1) --(14.1,2.24) --(14.24,2.24);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] [->] (13.5,3) -- (13.5,2.9);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] [->] (18.5,5) -- (18.5,5.5);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] (18.5,4) -- (18.5,5.9) -- (17.9,5.9) --(17.9,5.75) --(17.75,5.75);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] (17.65,5.65) -- (17.5,5.65) --(17.5,5.5) --(17.15,5.5)--(17.15,5.15)--(16.6,5.15) --(16.6,4.6) --(16.15,4.6) --(16.15,4.15) --(16.02,4.15);
+    \draw [color={rgb,255:red,176; green,63; blue,53},thick] [->] (16.8,5.15)--(16.9,5.15);
+    \draw [fill,color={rgb,255:red,176; green,63; blue,53}] (14.3, 2.3) circle [radius=0.05];
+    \draw [fill,color={rgb,255:red,176; green,63; blue,53}] (17.7,5.7) circle [radius=0.05];
+    \draw [fill,color={rgb,255:red,176; green,63; blue,53}] (16,4) circle [radius=0.05];
+    \coordinate [label=90:$-\sqrt{-\mu}$] (8) at (14,4);
+    \coordinate [label=-90:$\sqrt{-\mu}$] (8) at (18,4);
+\end{tikzpicture}
+
+
+\end{document}
