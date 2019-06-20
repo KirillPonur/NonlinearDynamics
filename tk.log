@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  19 JUN 2019 22:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  20 JUN 2019 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1814,6 +1814,15 @@ LaTeX Warning: Label `fig:1' multiply defined.
 
 LaTeX Warning: Label `fig:1' multiply defined.
 
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
 )
 \openout1 = `tk.aux'.
 
@@ -1960,7 +1969,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 8.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 8.
-<fig/fig1'.pdf, id=143, 427.59146pt x 171.31602pt>
+<fig/fig1'.pdf, id=153, 427.59146pt x 171.31602pt>
 File: fig/fig1'.pdf Graphic file (type pdf)
 <use fig/fig1'.pdf>
 Package pdftex.def Info: fig/fig1'.pdf  used on input line 14.
@@ -1974,7 +1983,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 52.
  [3 <./fig/fig1'.pdf>]
-<fig/fig2.pdf, id=186, 599.23875pt x 452.69125pt>
+<fig/fig2.pdf, id=196, 599.23875pt x 452.69125pt>
 File: fig/fig2.pdf Graphic file (type pdf)
 <use fig/fig2.pdf>
 Package pdftex.def Info: fig/fig2.pdf  used on input line 63.
@@ -2001,12 +2010,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 119.
  [5]
-<fig/fig3.pdf, id=230, 525.965pt x 518.93875pt>
+<fig/fig3.pdf, id=240, 525.965pt x 518.93875pt>
 File: fig/fig3.pdf Graphic file (type pdf)
 <use fig/fig3.pdf>
 Package pdftex.def Info: fig/fig3.pdf  used on input line 132.
 (pdftex.def)             Requested size: 241.84843pt x 238.6197pt.
-<fig/fig4.pdf, id=232, 525.965pt x 518.93875pt>
+<fig/fig4.pdf, id=242, 525.965pt x 518.93875pt>
 File: fig/fig4.pdf Graphic file (type pdf)
 <use fig/fig4.pdf>
 Package pdftex.def Info: fig/fig4.pdf  used on input line 143.
@@ -2042,7 +2051,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 206.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 206.
-<fig/fig5.pdf, id=273, 240.9pt x 168.63pt>
+<fig/fig5.pdf, id=283, 240.9pt x 168.63pt>
 File: fig/fig5.pdf Graphic file (type pdf)
 <use fig/fig5.pdf>
 Package pdftex.def Info: fig/fig5.pdf  used on input line 217.
@@ -2065,7 +2074,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 238.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 238.
-<fig/fig6.pdf, id=282, 114.1866pt x 114.1866pt>
+<fig/fig6.pdf, id=292, 114.1866pt x 114.1866pt>
 File: fig/fig6.pdf Graphic file (type pdf)
 <use fig/fig6.pdf>
 Package pdftex.def Info: fig/fig6.pdf  used on input line 247.
@@ -2079,7 +2088,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 248.
 [9 <./fig/fig5.pdf>]
-<fig/fig7.pdf, id=321, 481.8pt x 403.5075pt>
+<fig/fig7.pdf, id=331, 481.8pt x 403.5075pt>
 File: fig/fig7.pdf Graphic file (type pdf)
 <use fig/fig7.pdf>
 Package pdftex.def Info: fig/fig7.pdf  used on input line 271.
@@ -2126,12 +2135,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 348.
  [12]
-<fig/fig8.pdf, id=413, 501.875pt x 367.3725pt>
+<fig/fig8.pdf, id=423, 501.875pt x 367.3725pt>
 File: fig/fig8.pdf Graphic file (type pdf)
 <use fig/fig8.pdf>
 Package pdftex.def Info: fig/fig8.pdf  used on input line 364.
 (pdftex.def)             Requested size: 241.84843pt x 177.03749pt.
-<fig/fig9.pdf, id=415, 501.875pt x 412.54124pt>
+<fig/fig9.pdf, id=425, 501.875pt x 412.54124pt>
 File: fig/fig9.pdf Graphic file (type pdf)
 <use fig/fig9.pdf>
 Package pdftex.def Info: fig/fig9.pdf  used on input line 381.
@@ -2145,7 +2154,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 383.
  [13 <./fig/fig8.pdf>]
-<fig/fig10.pdf, id=450, 501.875pt x 501.875pt>
+<fig/fig10.pdf, id=460, 501.875pt x 501.875pt>
 File: fig/fig10.pdf Graphic file (type pdf)
 <use fig/fig10.pdf>
 Package pdftex.def Info: fig/fig10.pdf  used on input line 387.
@@ -2163,7 +2172,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 394.
  [14 <./fig/fig9.pdf> <./fig/fig10.pdf>]
-<fig/fig11.pdf, id=529, 501.875pt x 358.33875pt>
+<fig/fig11.pdf, id=539, 501.875pt x 358.33875pt>
 File: fig/fig11.pdf Graphic file (type pdf)
 <use fig/fig11.pdf>
 Package pdftex.def Info: fig/fig11.pdf  used on input line 418.
@@ -2186,7 +2195,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 461.
  [16]
-<fig/fig12.pdf, id=576, 409.53pt x 396.48125pt>
+<fig/fig12.pdf, id=586, 409.53pt x 396.48125pt>
 File: fig/fig12.pdf Graphic file (type pdf)
 <use fig/fig12.pdf>
 Package pdftex.def Info: fig/fig12.pdf  used on input line 502.
@@ -2200,17 +2209,17 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 503.
  [17]
-<fig/fig13.pdf, id=585, 409.53pt x 396.48125pt>
+<fig/fig13.pdf, id=595, 409.53pt x 396.48125pt>
 File: fig/fig13.pdf Graphic file (type pdf)
 <use fig/fig13.pdf>
 Package pdftex.def Info: fig/fig13.pdf  used on input line 508.
 (pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
-<fig/fig14.pdf, id=586, 409.53pt x 396.48125pt>
+<fig/fig14.pdf, id=596, 409.53pt x 396.48125pt>
 File: fig/fig14.pdf Graphic file (type pdf)
 <use fig/fig14.pdf>
 Package pdftex.def Info: fig/fig14.pdf  used on input line 513.
 (pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
-<fig/fig15.pdf, id=587, 409.53pt x 396.48125pt>
+<fig/fig15.pdf, id=597, 409.53pt x 396.48125pt>
 File: fig/fig15.pdf Graphic file (type pdf)
 <use fig/fig15.pdf>
 Package pdftex.def Info: fig/fig15.pdf  used on input line 519.
@@ -2224,12 +2233,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 520.
  [18 <./fig/fig12.pdf> <./fig/fig13.pdf> <./fig/fig14.pdf>]
-<fig/fig16.pdf, id=667, 409.53pt x 396.48125pt>
+<fig/fig16.pdf, id=677, 409.53pt x 396.48125pt>
 File: fig/fig16.pdf Graphic file (type pdf)
 <use fig/fig16.pdf>
 Package pdftex.def Info: fig/fig16.pdf  used on input line 523.
 (pdftex.def)             Requested size: 193.47578pt x 187.31418pt.
-<fig/fig17.pdf, id=668, 409.53pt x 396.48125pt>
+<fig/fig17.pdf, id=678, 409.53pt x 396.48125pt>
 File: fig/fig17.pdf Graphic file (type pdf)
 <use fig/fig17.pdf>
 Package pdftex.def Info: fig/fig17.pdf  used on input line 527.
@@ -2247,7 +2256,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 532.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 532.
-<fig/fig18.pdf, id=765, 1927.2pt x 1204.5pt>
+<fig/fig18.pdf, id=775, 1927.2pt x 1204.5pt>
 File: fig/fig18.pdf Graphic file (type pdf)
 <use fig/fig18.pdf>
 Package pdftex.def Info: fig/fig18.pdf  used on input line 536.
@@ -2265,7 +2274,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 558.
  [20 <./fig/fig18.pdf>]
-<fig/fig19.pdf, id=828, 153.637pt x 117.06735pt>
+<fig/fig19.pdf, id=838, 153.637pt x 117.06735pt>
 File: fig/fig19.pdf Graphic file (type pdf)
 <use fig/fig19.pdf>
 Package pdftex.def Info: fig/fig19.pdf  used on input line 589.
@@ -2279,17 +2288,17 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 591.
  [21]
-<fig/fig20.pdf, id=836, 219.84334pt x 127.12694pt>
+<fig/fig20.pdf, id=846, 219.84334pt x 127.12694pt>
 File: fig/fig20.pdf Graphic file (type pdf)
 <use fig/fig20.pdf>
 Package pdftex.def Info: fig/fig20.pdf  used on input line 595.
 (pdftex.def)             Requested size: 241.84843pt x 139.85944pt.
-<fig/fig21.pdf, id=838, 316.15013pt x 156.79077pt>
+<fig/fig21.pdf, id=848, 316.15013pt x 156.79077pt>
 File: fig/fig21.pdf Graphic file (type pdf)
 <use fig/fig21.pdf>
 Package pdftex.def Info: fig/fig21.pdf  used on input line 608.
 (pdftex.def)             Requested size: 193.47578pt x 95.95323pt.
-<fig/fig22.pdf, id=839, 316.15013pt x 156.79077pt>
+<fig/fig22.pdf, id=849, 316.15013pt x 156.79077pt>
 File: fig/fig22.pdf Graphic file (type pdf)
 <use fig/fig22.pdf>
 Package pdftex.def Info: fig/fig22.pdf  used on input line 614.
@@ -2303,7 +2312,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 615.
  [22 <./fig/fig19.pdf> <./fig/fig20.pdf> <./fig/fig21.pdf>]
-<fig/fig23.pdf, id=869, 467.14525pt x 156.79077pt>
+<fig/fig23.pdf, id=879, 467.14525pt x 156.79077pt>
 File: fig/fig23.pdf Graphic file (type pdf)
 <use fig/fig23.pdf>
 Package pdftex.def Info: fig/fig23.pdf  used on input line 622.
@@ -2339,12 +2348,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 722.
  [25]
-<fig/fig25.pdf, id=911, 271.70108pt x 161.85368pt>
+<fig/fig25.pdf, id=922, 271.70108pt x 161.85368pt>
 File: fig/fig25.pdf Graphic file (type pdf)
 <use fig/fig25.pdf>
 Package pdftex.def Info: fig/fig25.pdf  used on input line 727.
 (pdftex.def)             Requested size: 193.47578pt x 115.25772pt.
-<fig/fig26.pdf, id=912, 458.5702pt x 171.74565pt>
+<fig/fig26.pdf, id=923, 458.5702pt x 171.74565pt>
 File: fig/fig26.pdf Graphic file (type pdf)
 <use fig/fig26.pdf>
 Package pdftex.def Info: fig/fig26.pdf  used on input line 733.
@@ -2369,7 +2378,7 @@ Overfull \hbox (5.64597pt too wide) in paragraph at lines 769--770
 ; \OT1/cmr/m/n/14.4 0)$\T2A/cmr/m/n/14.4 ,
  []
 
-<fig/fig27.pdf, id=924, 224.66133pt x 155.93156pt>
+<fig/fig27.pdf, id=934, 224.66133pt x 155.93156pt>
 File: fig/fig27.pdf Graphic file (type pdf)
 <use fig/fig27.pdf>
 Package pdftex.def Info: fig/fig27.pdf  used on input line 780.
@@ -2383,17 +2392,17 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 782.
 [27]
-<fig/fig30.pdf, id=931, 228.02188pt x 120.76115pt>
+<fig/fig30.pdf, id=941, 228.02188pt x 120.76115pt>
 File: fig/fig30.pdf Graphic file (type pdf)
 <use fig/fig30.pdf>
 Package pdftex.def Info: fig/fig30.pdf  used on input line 790.
 (pdftex.def)             Requested size: 193.47578pt x 102.46687pt.
-<fig/fig28.pdf, id=932, 224.66133pt x 155.93156pt>
+<fig/fig28.pdf, id=942, 224.66133pt x 155.93156pt>
 File: fig/fig28.pdf Graphic file (type pdf)
 <use fig/fig28.pdf>
 Package pdftex.def Info: fig/fig28.pdf  used on input line 801.
 (pdftex.def)             Requested size: 193.47578pt x 134.28886pt.
-<fig/fig29.pdf, id=933, 381.88672pt x 169.2734pt>
+<fig/fig29.pdf, id=943, 381.88672pt x 169.2734pt>
 File: fig/fig29.pdf Graphic file (type pdf)
 <use fig/fig29.pdf>
 Package pdftex.def Info: fig/fig29.pdf  used on input line 807.
@@ -2407,12 +2416,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 808.
  [28 <./fig/fig27.pdf> <./fig/fig30.pdf> <./fig/fig28.pdf>]
-<fig/fig31.pdf, id=962, 296.52882pt x 169.2734pt>
+<fig/fig31.pdf, id=972, 296.52882pt x 169.2734pt>
 File: fig/fig31.pdf Graphic file (type pdf)
 <use fig/fig31.pdf>
 Package pdftex.def Info: fig/fig31.pdf  used on input line 815.
 (pdftex.def)             Requested size: 290.22107pt x 165.68793pt.
-<fig/fig32.pdf, id=963, 296.52882pt x 169.2734pt>
+<fig/fig32.pdf, id=973, 296.52882pt x 169.2734pt>
 File: fig/fig32.pdf Graphic file (type pdf)
 <use fig/fig32.pdf>
 Package pdftex.def Info: fig/fig32.pdf  used on input line 821.
@@ -2476,7 +2485,7 @@ LaTeX Font Info:    Try loading font information for U+dsrom on input line 1057
 (c:/texlive/2018/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
-<fig/fig33.pdf, id=1045, 160.72346pt x 114.89525pt>
+<fig/fig33.pdf, id=1055, 160.72346pt x 114.89525pt>
 File: fig/fig33.pdf Graphic file (type pdf)
 <use fig/fig33.pdf>
 Package pdftex.def Info: fig/fig33.pdf  used on input line 1060.
@@ -2503,12 +2512,12 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 1112.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1112.
-<fig/fig34.pdf, id=1076, 161.83562pt x 117.42369pt>
+<fig/fig34.pdf, id=1086, 161.83562pt x 117.42369pt>
 File: fig/fig34.pdf Graphic file (type pdf)
 <use fig/fig34.pdf>
 Package pdftex.def Info: fig/fig34.pdf  used on input line 1130.
 (pdftex.def)             Requested size: 169.29684pt x 122.84161pt.
-<fig/fig35.pdf, id=1077, 161.83562pt x 157.66304pt>
+<fig/fig35.pdf, id=1087, 161.83562pt x 157.66304pt>
 File: fig/fig35.pdf Graphic file (type pdf)
 <use fig/fig35.pdf>
 Package pdftex.def Info: fig/fig35.pdf  used on input line 1138.
@@ -2522,12 +2531,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1140.
  [36 <./fig/fig34.pdf>]
-<fig/fig36.pdf, id=1094, 161.83562pt x 117.42369pt>
+<fig/fig36.pdf, id=1104, 161.83562pt x 117.42369pt>
 File: fig/fig36.pdf Graphic file (type pdf)
 <use fig/fig36.pdf>
 Package pdftex.def Info: fig/fig36.pdf  used on input line 1146.
 (pdftex.def)             Requested size: 169.29684pt x 122.84161pt.
-<fig/fig37.pdf, id=1095, 189.09647pt x 197.49684pt>
+<fig/fig37.pdf, id=1105, 189.09647pt x 197.49684pt>
 File: fig/fig37.pdf Graphic file (type pdf)
 <use fig/fig37.pdf>
 Package pdftex.def Info: fig/fig37.pdf  used on input line 1154.
@@ -2550,17 +2559,17 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1212.
  [38]
-<fig/fig38.pdf, id=1146, 135.95593pt x 105.8073pt>
+<fig/fig38.pdf, id=1156, 135.95593pt x 105.8073pt>
 File: fig/fig38.pdf Graphic file (type pdf)
 <use fig/fig38.pdf>
 Package pdftex.def Info: fig/fig38.pdf  used on input line 1216.
 (pdftex.def)             Requested size: 169.29684pt x 131.75667pt.
-<fig/fig39.pdf, id=1147, 135.95593pt x 105.8073pt>
+<fig/fig39.pdf, id=1157, 135.95593pt x 105.8073pt>
 File: fig/fig39.pdf Graphic file (type pdf)
 <use fig/fig39.pdf>
 Package pdftex.def Info: fig/fig39.pdf  used on input line 1224.
 (pdftex.def)             Requested size: 169.29684pt x 131.75667pt.
-<fig/fig40.pdf, id=1148, 135.95593pt x 134.25958pt>
+<fig/fig40.pdf, id=1158, 135.95593pt x 134.25958pt>
 File: fig/fig40.pdf Graphic file (type pdf)
 <use fig/fig40.pdf>
 Package pdftex.def Info: fig/fig40.pdf  used on input line 1232.
@@ -2608,7 +2617,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1306.
  [41]
-<fig/fig41.pdf, id=1196, 193.63342pt x 117.42369pt>
+<fig/fig41.pdf, id=1206, 193.63342pt x 117.42369pt>
 File: fig/fig41.pdf Graphic file (type pdf)
 <use fig/fig41.pdf>
 Package pdftex.def Info: fig/fig41.pdf  used on input line 1326.
@@ -2622,7 +2631,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1340.
  [42 <./fig/fig41.pdf>]
-<fig/fig42.pdf, id=1212, 306.88954pt x 191.5426pt>
+<fig/fig42.pdf, id=1222, 306.88954pt x 191.5426pt>
 File: fig/fig42.pdf Graphic file (type pdf)
 <use fig/fig42.pdf>
 Package pdftex.def Info: fig/fig42.pdf  used on input line 1343.
@@ -2636,12 +2645,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1348.
 
-<fig/fig43.pdf, id=1213, 189.09647pt x 143.43687pt>
+<fig/fig43.pdf, id=1223, 189.09647pt x 143.43687pt>
 File: fig/fig43.pdf Graphic file (type pdf)
 <use fig/fig43.pdf>
 Package pdftex.def Info: fig/fig43.pdf  used on input line 1355.
 (pdftex.def)             Requested size: 241.84843pt x 183.4519pt.
-<fig/fig44.pdf, id=1214, 193.72375pt x 138.5175pt>
+<fig/fig44.pdf, id=1224, 193.72375pt x 138.5175pt>
 File: fig/fig44.pdf Graphic file (type pdf)
 <use fig/fig44.pdf>
 Package pdftex.def Info: fig/fig44.pdf  used on input line 1361.
@@ -2686,7 +2695,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1497.
  [46]
-<fig/fig45.pdf, id=1264, 302.95885pt x 143.74503pt>
+<fig/fig45.pdf, id=1274, 302.95885pt x 143.74503pt>
 File: fig/fig45.pdf Graphic file (type pdf)
 <use fig/fig45.pdf>
 Package pdftex.def Info: fig/fig45.pdf  used on input line 1513.
@@ -2704,7 +2713,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1524.
  [47 <./fig/fig45.pdf>]
-<fig/fig46.pdf, id=1283, 121.73781pt x 113.10054pt>
+<fig/fig46.pdf, id=1293, 121.73781pt x 113.10054pt>
 File: fig/fig46.pdf Graphic file (type pdf)
 <use fig/fig46.pdf>
 Package pdftex.def Info: fig/fig46.pdf  used on input line 1528.
@@ -2719,7 +2728,7 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1571.
 
 [48 <./fig/fig46.pdf>]
-<fig/fig47.pdf, id=1300, 166.49904pt x 169.2734pt>
+<fig/fig47.pdf, id=1310, 166.49904pt x 169.2734pt>
 File: fig/fig47.pdf Graphic file (type pdf)
 <use fig/fig47.pdf>
 Package pdftex.def Info: fig/fig47.pdf  used on input line 1601.
@@ -2764,7 +2773,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 1733.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1733.
-<fig/fig48.pdf, id=1349, 302.10468pt x 156.20859pt>
+<fig/fig48.pdf, id=1359, 302.10468pt x 156.20859pt>
 File: fig/fig48.pdf Graphic file (type pdf)
 <use fig/fig48.pdf>
 Package pdftex.def Info: fig/fig48.pdf  used on input line 1738.
@@ -2817,12 +2826,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1800.
  [53]
-<fig/fig49.pdf, id=1373, 559.28247pt x 241.84856pt>
+<fig/fig49.pdf, id=1383, 559.28247pt x 241.84856pt>
 File: fig/fig49.pdf Graphic file (type pdf)
 <use fig/fig49.pdf>
 Package pdftex.def Info: fig/fig49.pdf  used on input line 1805.
 (pdftex.def)             Requested size: 483.69687pt x 209.17398pt.
-<fig/fig50.pdf, id=1374, 599.94139pt x 241.84856pt>
+<fig/fig50.pdf, id=1384, 599.94139pt x 241.84856pt>
 File: fig/fig50.pdf Graphic file (type pdf)
 <use fig/fig50.pdf>
 Package pdftex.def Info: fig/fig50.pdf  used on input line 1832.
@@ -2836,7 +2845,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1834.
  [54 <./fig/fig49.pdf>]
-<fig/fig51.pdf, id=1400, 165.78035pt x 129.41048pt>
+<fig/fig51.pdf, id=1410, 165.78035pt x 129.41048pt>
 File: fig/fig51.pdf Graphic file (type pdf)
 <use fig/fig51.pdf>
 Package pdftex.def Info: fig/fig51.pdf  used on input line 1841.
@@ -2861,7 +2870,7 @@ Underfull \hbox (badness 3815) in paragraph at lines 1845--1846
 \T2A/cmr/m/n/14.4 вое мно-го-об-ра-зие, дру-гое - од-но
  []
 
-<fig/fig52.pdf, id=1401, 470.26993pt x 170.91655pt>
+<fig/fig52.pdf, id=1411, 470.26993pt x 170.91655pt>
 File: fig/fig52.pdf Graphic file (type pdf)
 <use fig/fig52.pdf>
 Package pdftex.def Info: fig/fig52.pdf  used on input line 1849.
@@ -2890,7 +2899,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1857.
 [55 <./fig/fig50.pdf> <./fig/fig51.pdf> <./fig/fig52.pdf>]
-<fig/fig53.pdf, id=1443, 212.261pt x 153.63498pt>
+<fig/fig53.pdf, id=1453, 212.261pt x 153.63498pt>
 File: fig/fig53.pdf Graphic file (type pdf)
 <use fig/fig53.pdf>
 Package pdftex.def Info: fig/fig53.pdf  used on input line 1862.
@@ -2910,7 +2919,7 @@ Overfull \hbox (54.96939pt too wide) detected at line 1874
 [] []
  []
 
-<fig/fig54.pdf, id=1444, 520.1603pt x 230.5674pt>
+<fig/fig54.pdf, id=1454, 520.1603pt x 230.5674pt>
 File: fig/fig54.pdf Graphic file (type pdf)
 <use fig/fig54.pdf>
 Package pdftex.def Info: fig/fig54.pdf  used on input line 1881.
@@ -2924,37 +2933,37 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1887.
 [56 <./fig/fig53.pdf> <./fig/fig54.pdf>]
-<fig/55_1.jpg, id=1467, 840.89156pt x 575.90157pt>
+<fig/55_1.jpg, id=1477, 840.89156pt x 575.90157pt>
 File: fig/55_1.jpg Graphic file (type jpg)
 <use fig/55_1.jpg>
 Package pdftex.def Info: fig/55_1.jpg  used on input line 1890.
 (pdftex.def)             Requested size: 154.78653pt x 106.00407pt.
-<fig/55_2.jpg, id=1468, 718.18312pt x 612.78937pt>
+<fig/55_2.jpg, id=1478, 718.18312pt x 612.78937pt>
 File: fig/55_2.jpg Graphic file (type jpg)
 <use fig/55_2.jpg>
 Package pdftex.def Info: fig/55_2.jpg  used on input line 1896.
 (pdftex.def)             Requested size: 145.11053pt x 123.80865pt.
-<fig/55_3.jpg, id=1469, 715.92468pt x 627.84563pt>
+<fig/55_3.jpg, id=1479, 715.92468pt x 627.84563pt>
 File: fig/55_3.jpg Graphic file (type jpg)
 <use fig/55_3.jpg>
 Package pdftex.def Info: fig/55_3.jpg  used on input line 1902.
 (pdftex.def)             Requested size: 145.11053pt x 127.25299pt.
-<fig/fig58.pdf, id=1470, 507.21294pt x 107.38419pt>
+<fig/fig58.pdf, id=1480, 507.21294pt x 107.38419pt>
 File: fig/fig58.pdf Graphic file (type pdf)
 <use fig/fig58.pdf>
 Package pdftex.def Info: fig/fig58.pdf  used on input line 1913.
 (pdftex.def)             Requested size: 483.69687pt x 102.40927pt.
-<fig/fig61.jpg, id=1471, 289.3209pt x 224.7597pt>
+<fig/fig61.jpg, id=1481, 289.3209pt x 224.7597pt>
 File: fig/fig61.jpg Graphic file (type jpg)
 <use fig/fig61.jpg>
 Package pdftex.def Info: fig/fig61.jpg  used on input line 1918.
 (pdftex.def)             Requested size: 154.78653pt x 120.24695pt.
-<fig/fig60.jpg, id=1472, 289.8027pt x 299.9205pt>
+<fig/fig60.jpg, id=1482, 289.8027pt x 299.9205pt>
 File: fig/fig60.jpg Graphic file (type jpg)
 <use fig/fig60.jpg>
 Package pdftex.def Info: fig/fig60.jpg  used on input line 1924.
 (pdftex.def)             Requested size: 145.11053pt x 150.17496pt.
-<fig/fig59.jpg, id=1473, 290.2845pt x 310.0383pt>
+<fig/fig59.jpg, id=1483, 290.2845pt x 310.0383pt>
 File: fig/fig59.jpg Graphic file (type jpg)
 <use fig/fig59.jpg>
 Package pdftex.def Info: fig/fig59.jpg  used on input line 1930.
@@ -2968,7 +2977,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 1938.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1938.
-<fig/fig62.pdf, id=1474, 114.46564pt x 100.59984pt>
+<fig/fig62.pdf, id=1484, 114.46564pt x 100.59984pt>
 File: fig/fig62.pdf Graphic file (type pdf)
 <use fig/fig62.pdf>
 Package pdftex.def Info: fig/fig62.pdf  used on input line 1943.
@@ -2991,14 +3000,14 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1945.
 [57 <./fig/55_1.jpg> <./fig/55_2.jpg> <./fig/55_3.jpg> <./fig/fig58.pdf> <./fig
 /fig61.jpg> <./fig/fig60.jpg> <./fig/fig59.jpg>]
-<fig/fig63.pdf, id=1486, 313.67389pt x 116.7562pt>
+<fig/fig63.pdf, id=1497, 313.67389pt x 116.7562pt>
 File: fig/fig63.pdf Graphic file (type pdf)
 <use fig/fig63.pdf>
 Package pdftex.def Info: fig/fig63.pdf  used on input line 1950.
 (pdftex.def)             Requested size: 483.69687pt x 180.05092pt.
 
-Underfull \hbox (badness 4859) in paragraph at lines 1947--1951
-[]\T2A/cmr/m/n/14.4 Первое - седло-узловая
+Underfull \hbox (badness 3118) in paragraph at lines 1947--1951
+[]\T2A/cmr/m/n/14.4 Первое -- седло-узловая
  []
 
 
@@ -3016,7 +3025,7 @@ Underfull \hbox (badness 5147) in paragraph at lines 1947--1951
 \T2A/cmr/m/n/14.4 ный цикл). Пред-по-ло-жим,
  []
 
-<fig/fig64.pdf, id=1487, 552.60352pt x 230.5674pt>
+<fig/fig64.pdf, id=1498, 552.60352pt x 230.5674pt>
 File: fig/fig64.pdf Graphic file (type pdf)
 <use fig/fig64.pdf>
 Package pdftex.def Info: fig/fig64.pdf  used on input line 1977.
@@ -3030,12 +3039,12 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1978.
 [58 <./fig/fig62.pdf> <./fig/fig63.pdf>]
-<fig/fig65.pdf, id=1517, 546.75269pt x 155.87936pt>
+<fig/fig65.pdf, id=1527, 546.75269pt x 155.87936pt>
 File: fig/fig65.pdf Graphic file (type pdf)
 <use fig/fig65.pdf>
 Package pdftex.def Info: fig/fig65.pdf  used on input line 1985.
 (pdftex.def)             Requested size: 483.69687pt x 137.90207pt.
-<fig/fig66.pdf, id=1518, 313.78029pt x 85.95815pt>
+<fig/fig66.pdf, id=1528, 313.78029pt x 85.95815pt>
 File: fig/fig66.pdf Graphic file (type pdf)
 <use fig/fig66.pdf>
 Package pdftex.def Info: fig/fig66.pdf  used on input line 1993.
@@ -3053,7 +3062,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 1998.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 1998.
-<fig/fig67.pdf, id=1540, 484.38966pt x 116.7562pt>
+<fig/fig67.pdf, id=1550, 484.38966pt x 116.7562pt>
 File: fig/fig67.pdf Graphic file (type pdf)
 <use fig/fig67.pdf>
 Package pdftex.def Info: fig/fig67.pdf  used on input line 2002.
@@ -3072,39 +3081,114 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 2024.
 [60 <./fig/fig66.pdf> <./fig/fig67.pdf>]
-<fig/fig68.pdf, id=1566, 552.60352pt x 230.5674pt>
+<fig/fig68.pdf, id=1576, 552.60352pt x 230.5674pt>
 File: fig/fig68.pdf Graphic file (type pdf)
 <use fig/fig68.pdf>
 Package pdftex.def Info: fig/fig68.pdf  used on input line 2040.
 (pdftex.def)             Requested size: 483.69687pt x 201.81984pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2048.
+<fig/fig69.pdf, id=1577, 552.60352pt x 230.5674pt>
+File: fig/fig69.pdf Graphic file (type pdf)
+<use fig/fig69.pdf>
+Package pdftex.def Info: fig/fig69.pdf  used on input line 2047.
+(pdftex.def)             Requested size: 483.69687pt x 201.81984pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 2048.
+(babel)             in language append on input line 2049.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 2048.
+(babel)             in language append on input line 2049.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 2048.
+(babel)             in language append on input line 2049.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 2048.
+(babel)             in language append on input line 2049.
  [61 <./fig/fig68.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2048.
+<fig/fig70.pdf, id=1597, 805.50435pt x 202.60393pt>
+File: fig/fig70.pdf Graphic file (type pdf)
+<use fig/fig70.pdf>
+Package pdftex.def Info: fig/fig70.pdf  used on input line 2054.
+(pdftex.def)             Requested size: 483.69687pt x 121.65912pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2060.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2060.
+<fig/fig71.pdf, id=1598, 484.38966pt x 116.7562pt>
+File: fig/fig71.pdf Graphic file (type pdf)
+<use fig/fig71.pdf>
+Package pdftex.def Info: fig/fig71.pdf  used on input line 2064.
+(pdftex.def)             Requested size: 483.69687pt x 116.59198pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2066.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2066.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2066.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2066.
+ [62 <./fig/fig69.pdf> <./fig/fig70.pdf>]
+<fig/fig73.pdf, id=1618, 552.93777pt x 230.5674pt>
+File: fig/fig73.pdf Graphic file (type pdf)
+<use fig/fig73.pdf>
+Package pdftex.def Info: fig/fig73.pdf  used on input line 2092.
+(pdftex.def)             Requested size: 483.69687pt x 201.70374pt.
+<fig/fig72.pdf, id=1619, 503.97385pt x 145.2095pt>
+File: fig/fig72.pdf Graphic file (type pdf)
+<use fig/fig72.pdf>
+Package pdftex.def Info: fig/fig72.pdf  used on input line 2096.
+(pdftex.def)             Requested size: 483.69687pt x 139.36629pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2098.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2098.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2098.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2098.
+ [63 <./fig/fig71.pdf> <./fig/fig73.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2101.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2101.
+<fig/fig74.jpg, id=1646, 420.1296pt x 363.5181pt>
+File: fig/fig74.jpg Graphic file (type jpg)
+<use fig/fig74.jpg>
+Package pdftex.def Info: fig/fig74.jpg  used on input line 2104.
+(pdftex.def)             Requested size: 154.78653pt x 133.92827pt.
+<fig/fig75.jpg, id=1647, 420.1296pt x 361.5909pt>
+File: fig/fig75.jpg Graphic file (type jpg)
+<use fig/fig75.jpg>
+Package pdftex.def Info: fig/fig75.jpg  used on input line 2110.
+(pdftex.def)             Requested size: 145.11053pt x 124.89244pt.
+<fig/fig76.jpg, id=1648, 453.3738pt x 411.6981pt>
+File: fig/fig76.jpg Graphic file (type jpg)
+<use fig/fig76.jpg>
+Package pdftex.def Info: fig/fig76.jpg  used on input line 2116.
+(pdftex.def)             Requested size: 145.11053pt x 131.77121pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2125.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2125.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2125.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 2125.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 2125.
+ [64 <./fig/fig72.pdf> <./fig/fig74.jpg> <./fig/fig75.jpg> <./fig/fig76.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2125.
  (./tk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2048.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2048.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2125.
 
 Package rerunfilecheck Info: File `tk.out' has not changed.
-(rerunfilecheck)             Checksum: E6573F41F4D504913F112FB5DFDF54B4;9592.
+(rerunfilecheck)             Checksum: B7CE84646DF17EF306748AD299D85932;10209.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2048.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2125.
  ) 
 Here is how much of TeX's memory you used:
- 23554 strings out of 492641
- 375088 string characters out of 6133116
- 456760 words of memory out of 5000000
- 26918 multiletter control sequences out of 15000+600000
+ 23605 strings out of 492641
+ 375980 string characters out of 6133116
+ 456949 words of memory out of 5000000
+ 26954 multiletter control sequences out of 15000+600000
  542580 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,19n,65p,1054b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3126,10 +3210,10 @@ lic/cm-super/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-sup
 er/sfbx2074.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm100
 0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/
 texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on tk.pdf (61 pages, 4569930 bytes).
+Output written on tk.pdf (64 pages, 5053263 bytes).
 PDF statistics:
- 1688 PDF objects out of 1728 (max. 8388607)
- 1134 compressed objects within 12 object streams
- 205 named destinations out of 1000 (max. 500000)
- 540 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1765 PDF objects out of 2073 (max. 8388607)
+ 1200 compressed objects within 12 object streams
+ 212 named destinations out of 1000 (max. 500000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 
