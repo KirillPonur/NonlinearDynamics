@@ -5,16 +5,6 @@
 
 % GNUPL
 \begin{document}
-\pagestyle{empty}
-\newcommand\spiral{}% Just for safety so \def won't overwrite something
-\def\spiral[#1](#2)(#3:#4:#5){% \spiral[draw options](placement)(end angle:revolutions:final radius)
-\pgfmathsetmacro{\domain}{pi*#3/180+#4*2*pi}
-\draw [#1,shift={(#2)}, domain=0:-\domain,variable=\t,samples=int(\domain/0.08)] plot ({\t r}: {#5*\t/\domain})
-}
-\def\spirall[#1](#2)(#3:#4:#5){% \spiral[draw options](placement)(end angle:revolutions:final radius)
-\pgfmathsetmacro{\domain}{pi*#3/180+#4*2*pi}
-\draw [#1,shift={(#2)}, domain=0:\domain,variable=\t,samples=int(\domain/0.08)] plot ({\t r}: {#5*\t/\domain})
-}
 
 \usetikzlibrary{decorations.pathreplacing,decorations.markings,arrows}
 \begin{tikzpicture}
