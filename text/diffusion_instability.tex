@@ -132,15 +132,16 @@
 
 Теперь рассмотрим нелинейную среду без дисперсии. Оказывается, в таких средах могут существовать волны, которые сохраняют одно свойство римановых:  переменные связаны алгебраически (если есть $U_1$ и $U_2$, то $U_3$ всегда можно пересчитать). 
 
+
+
+\newpage
+\paragraph{Волны на мелкой воде. } Типичный пример таких волн -- волны на мелкой воде, $\lambda \gg h_0$ (см. рис. выше). Это гравитационные волны, бегущие вдоль оси $x$. 
+Состояние жидкости описывается скоростью волны $V$  и профилем $h(z)$. Поскольку волны длинные, считаем, что $V$ не зависит от $z$.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1.5]{img/diffusion_instability/long_waves}
 \end{figure}
-
-
-\paragraph{Волны на мелкой воде. } Типичный пример таких волн -- волны на мелкой воде, $\lambda \gg h_0$ (см. рис. выше). Это гравитационные волны, бегущие вдоль оси $x$. 
-Состояние жидкости описывается скоростью волны $V$  и профилем $h(z)$. Поскольку волны длинные, считаем, что $V$ не зависит от $z$.
-
 
 Запишем уравнение Эйлера. Жидкость несжимаемая ($\rho=\const$): 
 \begin{gather*}
@@ -215,35 +216,49 @@
 \end{gather*}
 Действительно, подставляя полученные выражения в \eqref{eq:s2:15}, получим тождество.
 
-Исследуем решение \eqref{eq:s2:16}. Для определенности зададим вид нелинейности $V(U)$ и профиль волны в начальный момент времени $\phi(x,t=0)$:
+Исследуем решение \eqref{eq:s2:16}. Для определенности зададим вид нелинейности $V(U)$ и профиль волны в начальный момент времени $\phi(x,t=0)$\footnote{Есть два способа исследования: задать начальное распределение по $x$ и смотреть, что с ним будет происходить во времени, или наоборот -- создать на границе постоянные колебания и смотреть, что с ними произойдет при распространении вдоль $x$} (см. рис. \ref{fig:uvux}).
+
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.4\linewidth]{fig/fig12.pdf}   
+\begin{minipage}[h]{0.49\linewidth}
+\center{\includegraphics[scale=1.4]{img/diffusion_instability/vu}}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.49\linewidth}
+\center{\includegraphics[scale=1.4]{img/diffusion_instability/ux}}
+\end{minipage}
+	\caption{}
+	\label{fig:uvux}
 \end{figure}
 
-У максимального значения U скорость наибольшая. Задается профиль $\phi$ при $t=0$:
+% У максимального значения U скорость наибольшая. Задается профиль $\phi$ при $t=0$:
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.4\linewidth]{fig/fig13.pdf}   
+% \end{figure}
+% или при $x=0$:
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.4\linewidth]{fig/fig14.pdf}   
+% \end{figure}
+Во время распространения гребень волны будет обгонять подошву волны, будет просходить укручение фронта: волна деформируется.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\linewidth]{fig/fig13.pdf}   
+	\includegraphics[scale=1.4]{img/diffusion_instability/ux2.pdf}
 \end{figure}
-или при $x=0$:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.4\linewidth]{fig/fig14.pdf}   
-\end{figure}
-
-Во время распространения, верх волны обгонит, произойдет укручение фронта, волна деформируется. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.4\linewidth]{fig/fig15.pdf}   
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.4\linewidth]{fig/fig16.pdf}   
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.4\linewidth]{fig/fig17.pdf}   
-\end{figure}
-
-Появится точка, где производные $\pdv{U}{t}, \pdv{U}{x} \rightarrow \infty $. Образуется бесконечный градиент и разрыв, который характеризуется состоянием $U^*, t^*, x^*$, его описание в рамках простой волны несправедливо. Вторые производные тоже обращаются в бесконечность, и точки эти можно найти.
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.4\linewidth]{fig/fig15.pdf}   
+% \end{figure}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.4\linewidth]{fig/fig16.pdf}   
+% \end{figure}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.4\linewidth]{fig/fig17.pdf}   
+% \end{figure}
+В момент времени
+\begin{equation}
+	1+\dv{\phi}{\xi}\dv{V}{U} t = 0
+\end{equation}
+появится точка, где производные $\pdv{U}{t}, \pdv{U}{x} \rightarrow \infty $. Образуется бесконечный градиент и разрыв, который характеризуется состоянием $U^*, t^*, x^*$. Дальнейшее описание в рамках простой волны невозможно. Такой момент в решении называют \textbf{градиентной катастрофой}. %Вторые производные тоже обращаются в бесконечность, и точки эти можно найти.
