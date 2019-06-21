@@ -1,0 +1,62 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+\newcommand\spiral{}% Just for safety so \def won't overwrite something
+\def\spiral[#1](#2)(#3:#4:#5){% \spiral[draw options](placement)(end angle:revolutions:final radius)
+\pgfmathsetmacro{\domain}{pi*#3/180+#4*2*pi}
+\draw [#1,shift={(#2)}, domain=0:-\domain,variable=\t,samples=int(\domain/0.08)] plot ({\t r}: {#5*\t/\domain})
+}
+\def\spirall[#1](#2)(#3:#4:#5){% \spiral[draw options](placement)(end angle:revolutions:final radius)
+\pgfmathsetmacro{\domain}{pi*#3/180+#4*2*pi}
+\draw [#1,shift={(#2)}, domain=0:\domain,variable=\t,samples=int(\domain/0.08)] plot ({\t r}: {#5*\t/\domain})
+}
+
+\usetikzlibrary{decorations.pathreplacing,decorations.markings,arrows}
+\begin{tikzpicture}
+    %\mu<0
+    \coordinate [label=-90:$\mu<0$] (8) at (2.5,5.6);
+    \draw[semithick] [->] (0.5,2) -- (5,2) node[above] {$\xi$};
+	\draw[semithick] [->] (2.5,0.5) -- (2.5,4) node[left] {$\eta$};
+    \spiral[semithick, 
+            postaction={decorate,
+                decoration={markings,mark=at position 0.8 with {\arrow{<}}}
+               },
+     color={rgb,255:red,255; green,36; blue,0}](2.5,2)(170:2.5:1.5);
+      %цвет влюбленной жабы
+    \draw [fill, color={rgb,255:red,255; green,36; blue,0}] (2.5,2) circle [radius=0.03];
+
+	%\mu=0
+    \coordinate [label=-90:$\mu \equiv0$] (8) at (9,5.6);
+
+    \draw[semithick] [->] (6,2) -- (11.5,2) node[above] {$\xi$};
+    \draw[semithick] [->] (8.5,0.5) -- (8.5,4) node[left] {$\eta$};
+    \spiral[semithick, 
+            postaction={decorate,
+                decoration={markings,mark=at position 0.95 with {\arrow{<}}}
+               },
+     color={rgb,255:red,255; green,36; blue,0}](8.5,2)(10:5:1.5); 
+     \draw [fill, color={rgb,255:red,255; green,36; blue,0}] (8.5,2) circle [radius=0.03];
+    %\mu>0
+    \coordinate [label=-90:$\mu>0$] (8) at (15,5.6); 
+    \draw[semithick] [->] (12.5,2) -- (18,2) node[above] {$\xi$};
+    \draw[semithick] [->] (15,0.5) -- (15,4) node[left] {$\eta$};
+
+    \spirall[semithick, 
+            postaction={decorate,
+                decoration={markings,mark=at position 0.95 with {\arrow{>}}}
+               },
+     color={rgb,255:red,255; green,36; blue,0}](15,2)(50:2:0.5); 
+    \draw [very thick, color={rgb,255:red,255; green,36; blue,0}] (15,2) circle [radius=0.7];
+    \draw [color={rgb,255:red,255; green,36; blue,0}, semithick] (15,0.9) to [out=0,in=-90] (16,2) to [out=90,in=0] (15,2.9) to [out=180,in=60] (14.3,2.49);
+    \draw [color={rgb,255:red,255; green,36; blue,0}, semithick] [->] (15.7,2.646) --(15.62,2.7);
+    \draw [fill, color={rgb,255:red,255; green,36; blue,0}] (15,2) circle [radius=0.03];
+    \coordinate [label=-45:$-\sqrt{\mu}$] (8) at (13.4,2);
+\end{tikzpicture}
+
+
+\end{document}
