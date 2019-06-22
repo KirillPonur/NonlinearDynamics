@@ -8,14 +8,15 @@
 
 \begin{tikzpicture}
     %\mu<0
+    scale=1.7;
     \coordinate [label=-90:$\mu<0$] (8) at (2.5,8.6);
     \draw[semithick] [->] (0.5,6) -- (4.5,6) node[right] {$Re{S}$};
     \draw[semithick] [->] (2.5,4.5) -- (2.5,7.5) node[left] {$Im{S}$};
     \draw[thick] (2.5,6) circle [radius=0.8];
     \coordinate [label=-90:$1$] (8) at (2.65,7.2);
     \coordinate [label=-90:$-1$] (8) at (1.45,6.4);
-    \draw[thick] (2.7,6) circle [radius=0.03];
-    \draw[thick] (3.1,6) circle [radius=0.03];
+    \draw[fill] (2.7,6) circle [radius=0.03];
+    \draw[fill] (3.1,6) circle [radius=0.03];
     \coordinate [label=-90:$s_2$] (8) at (2.7,6);
     \coordinate [label=90:$s_1$] (8) at (3.04,6);
 	%\mu=0
