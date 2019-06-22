@@ -1,0 +1,45 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% Draw line annotation
+% Input:
+%   #1 Line offset (optional)
+%   #2 Line angle
+%   #3 Line length
+%   #5 Line label
+% Example:
+%   \lineann[1]{30}{2}{$L_1$}
+\newcommand{\vect}[4]{%
+    \draw[black,thick,->,>=latex] (0,0) -- (#1,#2);
+    \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (#1,0) node[below] {#3};
+    \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (0,#2) node [left] {#4};
+}
+
+
+\newcommand{\simplevect}[3][black]{%
+    \draw[black,thick,->,>=latex,#1] (0,0) -- (#2,#3);
+    % \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (#1,0) node[below] {#3};
+    % \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (0,#2) node [left] {#4};
+}
+
+\newcommand{\axis}[4][2]{%
+    \draw[->] ({-(#2+1.5)/#1},0) -- ({#2+1.5},0) node[right] {#3};
+    \draw[->] (0,{-#2/#1}) -- (0,#2) node[above] {#4};
+}
+
+
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}[scale=0.7]
+    \axis[1]{2.2}{$u_1$}{$u_2$}
+    \vect{2.5}{1.5}{}{}
+    \vect{-3}{-1}{}{}
+    % \simplevect{1.2}{0.6}
+\end{tikzpicture}
+
+
+\end{document}

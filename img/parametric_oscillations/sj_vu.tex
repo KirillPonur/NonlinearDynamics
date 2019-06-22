@@ -1,0 +1,89 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{quotes,angles}
+% Draw line annotation
+% Input:
+%   #1 Line offset (optional)
+%   #2 Line angle
+%   #3 Line length
+%   #5 Line label
+% Example:
+%   \lineann[1]{30}{2}{$L_1$}
+\newcommand{\vect}[4]{%
+    \draw[black,thick,->,>=latex] (0,0) -- (#1,#2);
+    \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (#1,0) node[below] {#3};
+    \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (0,#2) node [left] {#4};
+}
+
+
+\newcommand{\simplevect}[3][black]{%
+    \draw[black,thick,->,>=latex,#1] (0,0) -- (#2,#3);
+    % \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (#1,0) node[below] {#3};
+    % \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (0,#2) node [left] {#4};
+}
+
+\newcommand{\simpledashed}[2]{%
+    % \draw[black,thick,->,>=latex,#1] (0,0) -- (#2,#3);
+    \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (#1,0) node[below] {};
+    \draw[black, densely dashed,shorten <=1pt] (#1,#2) -- (0,#2) node [left] {};
+}
+
+\newcommand{\axis}[4][2]{%
+    \draw[->] ({-#2/#1},0) -- (#2,0) node[right] {#3};
+    \draw[->] (0,{-#2/#1}) -- (0,#2) node[above] {#4};
+}
+
+
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}[scale=0.7]
+\begin{scope}[xshift=0cm]
+     \axis[5]{3}{$u$}{$v$}
+    \draw[densely dashed,black!40] (0,0) -- (3,3) coordinate (a);
+    \simplevect{2}{2}{}{}
+    \draw[densely dashed, black!40] ({2*sqrt(2)},0) arc (0:90:{2*sqrt(2)});
+    % \simpledashed{-1.5}{-1.5}
+    \draw[densely dashed,black!40] (0,0) coordinate (b) -- ++(70:3.4);
+    \draw[black,thick,->,>=latex] (0,0) -- ++(70:1.8) coordinate (c);
+    % \simplevect{0.15}{0.7}
+    \draw pic["$\omega$", draw=black, ->, angle eccentricity=1.5, angle radius=0.8cm]  {angle=a--b--c};   
+
+    \draw ({(3)/2},-1.2) node {$|s|<1$};
+\end{scope}
+
+\begin{scope}[xshift=5cm]
+     \axis[5]{3}{$u$}{$v$}
+    \draw[densely dashed,black!40] (0,0) -- (3,3) coordinate (a);
+    \simplevect{2}{2}{}{}
+    \draw[densely dashed, black!40] ({2*sqrt(2)},0) arc (0:90:{2*sqrt(2)});
+    % \simpledashed{-1.5}{-1.5}
+    \draw[densely dashed,black!40] (0,0) coordinate (b) -- ++(70:3.4);
+    \draw[black,thick,->,>=latex] (0,0) -- ++(70:{2.4*sqrt(2)}) coordinate (c);
+    % \simplevect{0.15}{0.7}
+    \draw pic["$\omega$", draw=black, ->, angle eccentricity=1.5, angle radius=0.8cm]  {angle=a--b--c};   
+
+    \draw ({(3)/2},-1.2) node {$|s|>1$};
+\end{scope}
+
+\begin{scope}[xshift=10cm]
+     \axis[5]{3}{$u$}{$v$}
+    \draw[densely dashed,black!40] (0,0) -- (3,3) coordinate (a);
+    \simplevect{2}{2}{}{}
+    \draw[densely dashed, black!40] ({2*sqrt(2)},0) arc (0:90:{2*sqrt(2)});
+    % \simpledashed{-1.5}{-1.5}
+    \draw[densely dashed,black!40] (0,0) coordinate (b) -- ++(70:3.4);
+    \draw[black,thick,->,>=latex] (0,0) -- ++(70:{2*sqrt(2)}) coordinate (c);
+    % \simplevect{0.15}{0.7}
+    \draw pic["$\omega$", draw=black, ->, angle eccentricity=1.5, angle radius=0.8cm]  {angle=a--b--c};   
+
+    \draw ({(3)/2},-1.2) node {$|s|=1$};
+\end{scope}
+
+\end{tikzpicture}
+
+
+\end{document}

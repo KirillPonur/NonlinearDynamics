@@ -1,0 +1,95 @@
+\documentclass[tikz]{standalone}
+
+% \usepackage[latin1]{inputenc}
+\usepackage{tikz}
+% Шрифты, кодировки, символьные таблицы, переносы
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, russian]{babel}
+
+% Пакеты американского математического сообщества
+\usepackage{amssymb,amsfonts,amsmath,amsthm}  
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\re}{Re}
+% GNuPL
+\begin{document}
+\pagestyle{empty}
+\newcommand\spiral{}% Just for safety so \def won't overwrite something
+\def\spiral[#1](#2)(#3:#4:#5){% \spiral[draw options](placement)(end angle:revolutions:final radius)
+\pgfmathsetmacro{\domain}{pi*#3/180+#4*2*pi}
+\draw [#1,shift={(#2)}, domain=0:-\domain,variable=\t,samples=int(\domain/0.08)] plot ({\t r}: {#5*\t/\domain})
+}
+\def\spirall[#1](#2)(#3:#4:#5){% \spiral[draw options](placement)(end angle:revolutions:final radius)
+\pgfmathsetmacro{\domain}{pi*#3/180+#4*2*pi}
+\draw [#1,shift={(#2)}, domain=0:\domain,variable=\t,samples=int(\domain/0.08)] plot ({\t r}: {#5*\t/\domain})
+}
+
+\usetikzlibrary{decorations.pathreplacing,decorations.markings,arrows}
+\begin{tikzpicture}[scale=0.5]
+    %\mu<0
+    \coordinate [label=-90:$\mu<0$] (8) at (2.5,9.2);
+
+    \draw[semithick] [->] (0.5,6) -- (4.5,6) node[right] {$\re{\lambda}$};
+    \draw[semithick] [->] (2.5,4.5) -- (2.5,7.5) node[left] {$\im{\lambda}$};
+
+    \draw[semithick] [->] (0.5,2) -- (5,2) node[above] {$u_1$};
+	\draw[semithick] [->] (2.5,0.5) -- (2.5,4) node[left] {$u_2$};
+    \spiral[semithick, 
+            postaction={decorate,
+                decoration={markings,mark=at position 0.8 with {\arrow{<}}}
+               },
+     color={rgb,255:red,60; green,170; blue,60}](2.5,2)(170:2.5:1.5);
+      %цвет влюбленной жабы
+
+    \draw [fill] (1.5,5) circle [radius=0.08];
+    \draw [fill] (1.5,7) circle [radius=0.08];
+    \draw [fill] (0.7,6) circle [radius=0.08];
+    \draw[dashed] (1.5,5) -- (1.5,7);
+    \draw[semithick] (4,4.5) -- (2.5,2);
+    \draw [fill, color={rgb,255:red,60; green,170; blue,60}] (2.5,2) circle [radius=0.08];
+    \coordinate [label=above:$\lambda_3$] (3) at (0.5,6);
+    \coordinate [label=above:{у.ф.}] (3) at (4,4.5);
+	%\mu=0
+    \coordinate [label=-90:$\mu \equiv0$] (8) at (9,9.2);
+
+    \draw[semithick] [->] (7,6) -- (10.6,6) node[right] {$\re{\lambda}$};
+    \draw[semithick] [->] (8.5,4.5) -- (8.5,7.5) node[left] {$\im{\lambda}$};
+    \draw [fill] (8.5,5) circle [radius=0.08];
+    \draw [fill] (8.5,7) circle [radius=0.08];
+    \draw [fill] (7.7,6) circle [radius=0.08];
+
+    \draw[semithick] [->] (6,2) -- (11.5,2) node[above] {$u_1$};
+    \draw[semithick] [->] (8.5,0.5) -- (8.5,4) node[left] {$u_2$};
+    \spiral[semithick, 
+            postaction={decorate,
+                decoration={markings,mark=at position 0.95 with {\arrow{<}}}
+               },
+     color={rgb,255:red,60; green,170; blue,60}](8.5,2)(10:5:1.5); 
+     \draw [fill, color={rgb,255:red,60; green,170; blue,60}] (8.5,2) circle [radius=0.08];
+    %\mu>0
+    \coordinate [label=-90:$\mu>0$] (8) at (15,9.2);
+
+    \draw[semithick] [->] (13.5,6) -- (17.6,6) node[right] {$\re{\lambda}$};
+    \draw[semithick] [->] (15,4.5) -- (15,7.5) node[left] {$\im{\lambda}$};
+    \draw [fill] (16,5) circle [radius=0.08];
+    \draw [fill] (16,7) circle [radius=0.08];
+    \draw [fill] (14,6) circle [radius=0.08];
+    \draw[dashed] (16,5) -- (16,7);
+ 
+    \draw[semithick] [->] (12.5,2) -- (18,2) node[above] {$u_1$};
+    \draw[semithick] [->] (15,0.5) -- (15,4) node[left] {$u_2$};
+
+    \spirall[semithick, 
+            postaction={decorate,
+                decoration={markings,mark=at position 0.95 with {\arrow{>}}}
+               },
+     color={rgb,255:red,60; green,170; blue,60}](15,2)(50:2:0.5); 
+    \draw [very thick, color={rgb,255:red,60; green,170; blue,60}] (15,2) circle [radius=0.7];
+    \draw [color={rgb,255:red,60; green,170; blue,60}, semithick] (15,0.9) to [out=0,in=-90] (16,2) to [out=90,in=0] (15,2.9) to [out=180,in=60] (14.3,2.49);
+    \draw [color={rgb,255:red,60; green,170; blue,60}, semithick] [->] (15.7,2.646) --(15.62,2.7);
+    \draw [fill, color={rgb,255:red,60; green,170; blue,60}] (15,2) circle [radius=0.08];
+\end{tikzpicture}
+
+
+\end{document}

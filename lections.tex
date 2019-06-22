@@ -160,6 +160,9 @@
 \DeclareMathOperator{\Rot}{rot}
 \newcommand{\markerr}{\textcolor{red}{\textbf{??}}} 
 \usepackage{wrapfig,dsfont}
+\usepackage{chngcntr}
+
+\counterwithin*{equation}{section}
 \begin{document}
 \input{titlepage}
 
@@ -181,15 +184,17 @@
 
 
 \newpage
-\section{Стационарные волны в консервативных и автоколебательных распределенных системах}
-\label{sec:volnu}
-	\subsection{Солитоны в уравнении Кортевега - де Фриза}
-	\label{ssec:soliton}
-		\input{text/soliton}
+\section{Солитоны в уравнении Кортевега -- де Вриза}
+\label{ssec:soliton}
 
-	\subsection{Стационарные ударные волны}
-	\label{ssec:shock_waves}
-		\input{text/shock_waves}
+
+\input{text/soliton}
+
+
+
+\section{Стационарные ударные волны}
+\label{sec:shock_waves}
+	\input{text/shock_waves}
 
 \newpage
 \section{Параметрические колебания}
@@ -197,10 +202,11 @@
 % 29.04.19 
 	\input{text/parametric_oscillations}
 	
-	\subsection{Динамика маятника с вибрирующей точкой подвеса. Маятник Капицы}
-	\label{ssec:kap_pendulum}
+\newpage
+\section{Динамика маятника с вибрирующей точкой подвеса. Маятник Капицы}
+\label{sec:kap_pendulum}
 	% 29.04.19 
-		\input{text/kap_pendulum}
+	\input{text/kap_pendulum}
 
 \newpage
 \section{Введение в теорию многомерных динамических систем}

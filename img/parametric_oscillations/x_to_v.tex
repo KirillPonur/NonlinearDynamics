@@ -1,0 +1,19 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\begin{tikzpicture}[scale=0.5]
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (0,0) -- (4,0) node[right] {$x_1$};
+    \draw[->] (0,0) -- (0,3) node[above] {$x_2$};
+    \draw [black, dashed, semithick] (0,2) -- (3,2);
+    \draw [black, dashed, semithick] (3,2) -- (3,0);
+    \draw [black, thick] [->,>=latex] (0,0) -- (3,2);
+    \coordinate [label=left:$x_2(0)$] (2) at (0,2);
+    \coordinate [label=-90:$x_1(0)$] (1) at (3,0);
+
+\end{tikzpicture}
+\end{document}

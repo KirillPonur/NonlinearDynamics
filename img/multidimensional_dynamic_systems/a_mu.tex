@@ -1,0 +1,20 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+
+% GNUPL
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}[scale=0.5]
+    %\draw[very thin,color=gray] (-1,1.1) grid (3.9,3.9);
+    \draw[->] (-3,0) -- (4,0) node[right] {$\mu$};
+    \draw[->] (0,-2) -- (0,3) node[above] {$\alpha$};
+    \draw[black,thick] (-2.5,-1.8) to [out=20,in=-135] (0,0);  
+    \draw[black,thick] (0,0) to [out=45,in=200] (3,2);  
+\end{tikzpicture}
+
+
+\end{document}
