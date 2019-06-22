@@ -39,7 +39,7 @@
 \draw[->] (0,-1) -- (0,1) node[above] {$p$};
 \draw[->] (-0.5,0) -- (1.5,0) node[right] {$k$};
 \begin{scope}[xshift=0cm, yshift=0cm]
-	\draw[scale=1, thick,domain=0:1,smooth,variable=\x,red] plot ({\x},{(-\x^2-0.3)*0.78});
+	\draw[scale=1, thick,domain=0:1,smooth,variable=\x,black] plot ({\x},{(-\x^2-0.3)*0.78});
 \end{scope}
 % \foreach \y in {30,60}{
 % 	\draw[white] (\y:0) -- (\y:1) node[pos=1.35, scale=0.7,black] {$n=\pgfmathparse{int(\y/30)}\pgfmathresult$};
@@ -81,7 +81,7 @@
 \draw[->] (0,-1) -- (0,1) node[above] {$p$};
 \draw[->] (-0.5,0) -- (1.5,0) node[right] {$k$};
 \begin{scope}[xshift=0cm, yshift=0cm]
-	\draw[scale=1, thick,domain=0:1,smooth,variable=\x,red] plot ({\x},{(-\x^2+0.5)*0.78});
+	\draw[scale=1, thick,domain=0:1,smooth,variable=\x,black] plot ({\x},{(-\x^2+0.5)*0.78});
 \end{scope}
 
 \foreach \x in {0,0.1,...,0.707}{
