@@ -1,5 +1,5 @@
 
-\documentclass[a4paper,14pt]{extarticle}
+\documentclass[14pt,a4paper]{extreport}
 
 % Шрифты, кодировки, символьные таблицы, переносы
 \usepackage{cmap}
@@ -26,9 +26,10 @@
 
 % Графика
 \usepackage{graphicx}
+\graphicspath{{fig/}}
 \usepackage[usenames,dvipsnames]{color} 
 \usepackage{float}
- \usepackage{xcolor}
+\usepackage{xcolor}
 
 % Геометрия страницы
 \usepackage{geometry}
@@ -82,11 +83,11 @@
 	\renewcommand{\contentsname}{Оглавление}
 	\renewcommand{\partname}{Раздел}%
 }
-\def\thepart{\arabic{part}}
+%\def\thepart{\arabic{part}}
 \usepackage{tocloft}
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for chapters
-\renewcommand\thepart{\arabic{part}.}
+%\renewcommand\thepart{\arabic{part}.}
 
 \renewcommand{\cftsecaftersnum}{.}
 
@@ -151,21 +152,6 @@
 	%
 }
 
-
-% Настройки для inkscape
-\graphicspath{{fig/}} % путь, где искать картинки
-% следующий код взят из 
-% http://mirrors.ctan.org/info/svg-inkscape/InkscapePDFLaTeX.pdf
-% \newcommand{\executeiffilenewer}[3]{%
-    % \ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
-    % {\pdffilemoddate{#2}} > 0 %
-    % {\immediate\write18{#3}}\fi}
-\newcommand{\includesvg}[1]{%
-    % \executeiffilenewer{#1.svg}{#1.pdf}
-    % \immediate\write18{D:/Inkscape/inkscape --file=fig/fig1_2.svg --export-pdf=fig/fig1_2.pdf --export-latex > output}%
-    % \input{#1.pdf_tex}%
-  }
-%-----------------------------------
 % ##############################################################################
 \newcommand*\dotvec[1][1,1]{\crossproducttemp#1\relax}
 \def\crossproducttemp#1,#2\relax{{\qty[\vec{#1}\times\vec{#2}\,]}}
@@ -187,12 +173,47 @@
 \newpage
 \tableofcontents 
 \newpage
-\section{Введение в теорию колебаний}
+\part{Осенний семестр}
+\chapter{Введение в теорию колебаний}
 \label{sec:lect1}
 	\input{text/lect1}
 
 
+\newpage
+\chapter{Динамические системы на прямой}
+\label{sec:lect2}
+	\input{text/lect2}
+
+\newpage
+\chapter{Устойчивость состояний равновесия. Классификация состояний равновесия двумерных линейных
+систем}
+\label{sec:lect3}
+	\input{text/lect3}
+
+\newpage
+\chapter{Анализ устойчивости состояний равновесия многомерных нелинейных систем}
+\label{sec:lect4}
+	\input{text/lect4}
+        
+%\newpage
+%\chapter{Линейный и нелинейный осцилляторы}
+%\label{sec:lect5}
+	%\input{text/lect5}
+
+
+%\newpage
+%\chapter{Основные свойства точечных отображений}
+%\label{sec:lect6}
+	%\input{text/lect6}
+
+%\newpage
+%\chapter{Предельные циклы динамических систем на плоскости}
+%\label{sec:lect7}
+	%\input{text/lect7}
+
+
 % \newpage
+\part{Весенний семестр}
 % \section{Колебания и волны в цепочке взаимосвязанных тождественных осцилляторов}
 % \label{sec:osci_and_wave_in_ordered_struct}
 % 	% 08.04.19

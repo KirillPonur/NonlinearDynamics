@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="176.07953mm"
+   height="166.36847mm"
+   viewBox="0 0 176.07953 166.36847"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="fig2_3b.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect6830"
+       is_visible="true"
+       steps="1"
+       threshold="0.1175"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       simplifyindividualpaths="false"
+       simplifyJustCoalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect6824"
+       is_visible="true"
+       steps="1"
+       threshold="0.1175"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       simplifyindividualpaths="false"
+       simplifyJustCoalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect6760"
+       is_visible="true"
+       steps="1"
+       threshold="0.1175"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       simplifyindividualpaths="false"
+       simplifyJustCoalesce="false" />
+    <marker
+       inkscape:stockid="ArrowAxisStart"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="ArrowAxisStart">
+      <path
+         id="path5833"
+         transform="matrix(0.4,0,0,0.4,3.5272,0)"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="ArrowAxisEnd"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="ArrowAxisEnd">
+      <path
+         id="path5836"
+         transform="matrix(-0.4,0,0,-0.4,-3.5272,0)"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="320.97745"
+     inkscape:cy="341.78495"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g5857"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-84.275541,-9.3559842)" />
+  <g
+     id="g5859"
+     transform="translate(25.724459,140.64402)"
+     inkscape:label="Plot">
+    <g
+       id="g5843"
+       inkscape:label="Ticks" />
+    <g
+       id="g5857"
+       inkscape:label="Axis">
+      <path
+         id="path5845"
+         inkscape:label="Xaxis"
+         style="fill:none;stroke:#4c4c4c;stroke-width:1.42857146;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#ArrowAxisEnd)"
+         d="M -25,0 H 125"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text5849"
+         transform="translate(120.83333,18.75)"
+         xml:space="preserve"
+         y="0"
+         x="0"
+         style="font-style:normal;font-weight:normal;font-size:16.44736862px;line-height:100%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"><tspan
+           id="tspan5847"
+           sodipodi:role="line"
+           y="0"
+           x="0">$x$</tspan></text>
+      <path
+         id="path5851"
+         inkscape:label="Yaxis"
+         style="fill:none;stroke:#4c4c4c;stroke-width:1.42857146;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#ArrowAxisEnd)"
+         d="M 0,25 V -137.5"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text5855"
+         transform="translate(6.25,-125)"
+         xml:space="preserve"
+         y="0"
+         x="0"
+         style="font-style:normal;font-weight:normal;font-size:16.44736862px;line-height:100%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"><tspan
+           id="tspan5853"
+           sodipodi:role="line"
+           y="0"
+           x="0">$F(x, \vec \mu)$</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 20.513169,-78.243404 c 25.814116,23.353792 46.955367,55.890884 53.453905,90.604368"
+         id="path6822"
+         inkscape:connector-curvature="0"
+         inkscape:path-effect="#path-effect6824"
+         inkscape:original-d="m 20.513169,-78.243404 c 4.218053,5.779 11.757517,10.421167 16.83798,15.501633 3.367428,3.367429 4.458586,9.536705 7.750815,12.828936 10.617509,10.617507 28.86511,48.609517 28.86511,62.273799"
+         transform="matrix(-1,0,0,1,141.88838,0)" />
+      <circle
+         id="path6832"
+         style="fill:#000000;stroke:none;stroke-width:1.97643852"
+         cx="70.942955"
+         cy="-0.11967297"
+         r="2.9646578" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6834"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,-25.724459,-140.64402)"><flowRegion
+           id="flowRegion6836"><rect
+             id="rect6838"
+             width="127.78429"
+             height="60.104076"
+             x="371.73615"
+             y="443.43118" /></flowRegion><flowPara
+           id="flowPara6840">$x&amp;^$x</flowPara></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="43.382149"
+         y="-8.6196957"
+         id="text6844"><tspan
+           sodipodi:role="line"
+           id="tspan6842"
+           x="43.382149"
+           y="-8.6196957"
+           style="stroke-width:0.26458332">$x^*(\mu)$</tspan></text>
+    </g>
+  </g>
+</svg>
