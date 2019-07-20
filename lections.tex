@@ -25,11 +25,11 @@
 \usepackage{makecell,multirow} 
 
 % Графика
-\usepackage{graphicx}
+\usepackage{graphicx,xcolor}
 \graphicspath{{fig/}}
-\usepackage[usenames,dvipsnames]{color} 
-\usepackage{float}
-\usepackage{xcolor}
+% \usepackage[usenames,dvipsnames]{color} 
+% \usepackage{float}
+
 
 % Геометрия страницы
 \usepackage{geometry}
@@ -166,7 +166,7 @@
 \usepackage{wrapfig,dsfont}
 \usepackage{chngcntr}
 
-\counterwithin*{equation}{section}
+%\counterwithin*{equation}{section}
 \begin{document}
 \input{titlepage}
 
@@ -175,24 +175,24 @@
 \newpage
 \part{Осенний семестр}
 \chapter{Введение в теорию колебаний}
-\label{sec:lect1}
+\label{lect1}
 	\input{text/lect1}
 
 
 \newpage
 \chapter{Динамические системы на прямой}
-\label{sec:lect2}
+\label{lect2}
 	\input{text/lect2}
 
 \newpage
 \chapter{Устойчивость состояний равновесия. Классификация состояний равновесия двумерных линейных
 систем}
-\label{sec:lect3}
+\label{lect3}
 	\input{text/lect3}
 
 \newpage
 \chapter{Анализ устойчивости состояний равновесия многомерных нелинейных систем}
-\label{sec:lect4}
+\label{lect4}
 	\input{text/lect4}
         
 %\newpage
@@ -209,10 +209,27 @@
 %\newpage
 %\chapter{Предельные циклы динамических систем на плоскости}
 %\label{sec:lect7}
-	%\input{text/lect7}
+    %\input{text/lect7}
 
+%\newpage
+%\chapter{Предельные циклы динамических систем на плоскости}
+%\label{sec:lect7}
+	%\input{text/lect7}    
+%\newpage
+%\chapter{Основные бифуркации состояний равновесия на плоскости}
+%\label{sec:lect8}
+	%\input{text/lect8}
+%\newpage
+%\chapter{Бифуркация двукратного предельного цикла. Бифуркация
+%петли cепаратрис седла }
+%\label{sec:lect9}
+	%\input{text/lect9}    
+%\newpage
+%\chapter{Бифуркация петли сепаратрисы седло-узла. Динамика
+%быстро-медленных систем на плоскости}
+%\label{sec:lect10}
+	%\input{text/lect10}
 
-% \newpage
 \part{Весенний семестр}
 % \section{Колебания и волны в цепочке взаимосвязанных тождественных осцилляторов}
 % \label{sec:osci_and_wave_in_ordered_struct}
