@@ -15,7 +15,7 @@
 
 *.fuse_hidden*
 
-lections\.pdf
+*.swp
 
 *.driveupload
 *.wav
