@@ -1,8 +1,25 @@
 import os
 svg=[]
-for file in os.listdir(path='fig\\lect5'):
-	if file.endswith('.svg'):
-		svg.append(file[0:-4])
-		# print(svg)
-for file in svg:
-	os.system('D:/Inkscape/inkscape --file=fig\\lect5\\'+file+'.svg --export-pdf=fig\\lect5\\'+file+'.pdf --export-latex')
+lections = ['lect'+str(i) for i in range(1,5)]
+for lect in lections:
+	for file in os.listdir(path='fig\\' +lect):
+		if file.endswith('.svg'):
+			svg.append(file[0:-4])
+			# print(svg)
+	for file in svg:
+		# os.system('D:/Inkscape/inkscape --file=fig\\'+lect+'\\'+file+'.svg --export-pdf=fig\\'
+		# 			+	lect+'\\'+file+'.pdf --export-latex')
+
+		os.system('D:/Inkscape/inkscape --file=fig\\'+lect+'\\'+file+'.svg --export-pdf=fig\\'
+				+	lect+'\\'+file+'.pdf')
+
+
+# lections = ['lect'+str(i) for i in range(1,5)]
+# for lect in lections:
+# 	svg=[]
+# 	for file in os.listdir(path='fig\\' +lect):
+# 		if not(file.endswith('.svg')):
+# 			svg.append(file)
+# 	for file in svg:
+# 		os.remove('fig\\'+lect+'\\'+file)	
+# print(svg)
