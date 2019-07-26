@@ -1,2 +1,78 @@
 %!TEX root = ..\lections.tex
 
+\section{Двукратный предельный цикл}%
+\label{sec:9.1}
+
+Рассмотрим систему на фазовой плоскости, правые части которой зависят от управляющего параметра $\mu$ (см. \ref{lect8}, система \eqref{eq:8.1}). Предположим, что система \eqref{eq:8.1} имеет предельный цикл $L_0$. В малой окрестности $L_0$ траектории системы \eqref{eq:8.1} порождает отображение Пуанкаре
+(см. рис.\ref{fig:9.1}), которое можно представить в следующем виде
+\begin{equation}
+        \label{eq:9.1}
+        \bar \xi = g(\xi,\mu).
+\end{equation}
+Без ограничения общности будем считать, что начало координат на секущей
+Пуанкаре выбрано в неподвижной точке, то есть $g(0,\mu)=0$. Пусть при $\mu=0$
+мультипликатор предельного цикла $L_0$ удовлетворяет условию
+\begin{equation}
+        \label{eq:9.2}
+        s(0) = \pdv{g}{\xi} \eval_{(0,0)} = 1.
+\end{equation}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=0.6\linewidth]{example-image-a}
+        \caption{Отображение Пуанкаре в окрестности предельного цикла $L_0$.}
+        \label{fig:9.1}
+\end{figure}
+Раскладывая $g(\xi,\mu)$ в ряд Тейлора в окрестности точки $(0,0)$ получим
+\begin{align}
+        \label{eq:9.3}
+        g(\xi,\mu) = g(0,0) + g'_{\xi}(0,0) \xi + g'_{\mu}(0,0) \mu 
+        + &\frac{1}{2}g''_{\xi\xi}(0,0) \xi^2+ \\
+        + &g''_{\xi\mu}(0,0) \xi \mu + \frac{1}{2} g''_{\mu\mu}(0,0)\mu^2+ \dots
+\end{align}
+Из \eqref{eq:9.1} - \eqref{eq:9.3} следует следующее представление отображение Пуанкаре в окрестности $L_0$ 
+\begin{equation}
+        \label{eq:9.4}
+        \bar \xi = \alpha(\mu) + \xi( 1+ \beta(\mu)) + \gamma \xi^2 + \dots,
+\end{equation}
+где
+\begin{align}
+        \label{eq:}
+        \alpha(\mu) = g'_{\mu}(0,0)\mu+\dots &, &\beta(\mu) = g''_{\xi\mu}(0,0) \mu + \dots \\
+        \alpha(0) = \beta(0) = 0 &, &\gamma= \frac{1}{2} g''_{\xi\xi}(0,0)+ \dots
+\end{align}
+Предположим, что
+\begin{equation}
+        \label{eq:9.5}
+        \gamma \neq 0.
+\end{equation}
+Таким образом, мы имеем одно бифуркационное условие \eqref{eq:9.2} и одно условие невырожденности
+\eqref{eq:9.5}, а нормальная форма для бифуркации двукратный предельный цикл задается уравнением \eqref{eq:9.4}.
+
+Проведем исследование отображения \eqref{eq:9.4}. Рассмотрим два случая.
+
+\paragraph{Случай $\gamma>0.$}%
+Прежде всего изучим свойства функции последования $g(\xi,\mu)$ отображения
+\eqref{eq:9.4}. Непосредственно из \eqref{eq:9.4} имеем
+\begin{equation}
+        \label{eq:9.6}
+        \begin{gathered}
+                g'_{\xi} = 1 + \beta(\mu) + 2 \gamma \xi+ \dots \\
+                g''_{\xi\xi} = 2 \gamma + \dots
+        \end{gathered}
+\end{equation}
+Поскольку мы рассматриваем \eqref{eq:9.4} в окрестности точки $(\xi,\mu)=(0,0)$ и $\beta(0)=0,$ 
+в силу \eqref{eq:9.6} получаем что
+\begin{equation}
+        \label{eq:}
+        g'_{\xi}>0,\quad g''_{\xi\xi}>0.
+\end{equation}
+Следовательно, $g(\xi,\mu)$ -- монотонно возрастающая функция, выпуклая вниз.
+Координаты неподвижных точек отображения \eqref{eq:9.4} определяются уравнением
+\begin{equation}
+        \label{eq:9.7}
+        0 = \alpha(\mu) + \beta(\mu) \xi + \gamma(\mu) \xi^2 + \dots
+\end{equation}
+Пусть для определенности функция $\alpha(\mu)$ удовлетворяет условию $\alpha(\mu)\cdot \mu>0, \mu \neq 0.$ Тогда из \eqref{eq:9.7} получаем, что при $\mu=0$ отображение \eqref{eq:9.4} имеет единственную неподвижную точку $O_0 (\xi=0+\dots)$, а при $\mu<0$ -- две неподвижные точки:
+$\displaystyle O_1 \qty( \xi = - \sqrt{ -\frac{\alpha(\mu)}{\gamma}} + \dots )$ и
+$\displaystyle O_2 \qty( \xi = \sqrt{ -\frac{\alpha(\mu)}{\gamma}}+\dots)$. 
+
