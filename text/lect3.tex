@@ -9,7 +9,7 @@
 $A$, $B$ и $C$. 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\linewidth]{example-image-a}
+    \includegraphics[]{fig/lect3/1}
     \label{fig:3.1}
     \caption{Колебания массивного шарика в желобе. }
 \end{figure}
@@ -86,7 +86,24 @@ $A$, $B$ и $C$.
 
 \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.8\linewidth]{example-image-a}
+        \begin{minipage}{\linewidth}
+             \centering
+             \includegraphics[]{fig/lect3/2a}
+
+             (a)
+        \end{minipage}
+        \begin{minipage}{0.49\linewidth}
+             \centering
+             \includegraphics[]{fig/lect3/2b} 
+
+             (b)
+        \end{minipage}
+        \begin{minipage}{0.49\linewidth}
+             \centering
+             \includegraphics[]{fig/lect3/2c}
+
+             (c)
+        \end{minipage}
         \label{fig:3.2}
         \caption{Качественное представление эволюции во времени переменной $x(t)$ в фазовом пространстве в случае устойчивости по Ляпунову (а); примеры поведения траектории $x(t)$ в фазовом пространстве в случае устойчивости по Ляпунову (b) и в случае асимптотической устойчивости состояния равновесия $x^*$ (c) }
 \end{figure}
@@ -233,8 +250,20 @@ $\frac{\lambda_2}{\lambda_1} >1$ и, следовательно, все инте
 Непосредственно \eqref{eq:3.11} вытекает, что при таких значениях корней вдоль интегральных кривых переменные $u_1$,$u_2$ убывают и, следовательно, на фазовой плоскости $(u_1,u_2)$ (рис. \ref{fig:3.3}). Такое состояние равновесия называется \textbf{ устойчивым узлом}. Заметим, что устойчивый узел является асимптотически устойчивым состоянием равновесия (см. определение \ref{def:3.2}). Поскольку все траектории системы \eqref{eq:3.11} с начальными условиями, не лежащими на осях координат, касаются оси абсцисс, эту ось называют \textbf{ ведущим} направлением узла.
 \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.8\linewidth]{example-image-a}
-        \caption{Состояние равновесия устойчивый узел: на фазовой плоскости $( u_1,u_2)$ (a); на фазовой плоскости $(x_1,x_2)$ (b).}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/3a}
+
+                (a)
+        \end{minipage}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/3b}
+
+                (b)
+        \end{minipage}
+
+                \caption{Состояние равновесия устойчивый узел: на фазовой плоскости $( u_1,u_2)$ (a); на фазовой плоскости $(x_1,x_2)$ (b).}
         \label{fig:3.3}
 \end{figure}
 Вернёмся теперь к системе \eqref{eq:3.6} и рассмотрим поведение траекторий на фазовой плоскости $(x_1,x_2)$. Из \eqref{eq:3.18} следует, что ведущее и неведущее направление узла на плоскости $(x_1,x_2)$, вообще говоря, не совпадают с координатными осями. Принимая этот во внимание, получаем качественный вид траекторий представленный на рис.\ref{fig:3.3}b.
@@ -246,7 +275,18 @@ $\frac{\lambda_2}{\lambda_1} >1$ и, следовательно, все инте
 \textbf{ неустойчивым узлом} (рис. \ref{fig:3.4}). 
 \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.8\linewidth]{example-image-b}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/4a}
+
+                (a)
+        \end{minipage}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/4b}
+
+                (b)
+        \end{minipage}
         \caption{Состояние равновесия неустойчивый узел: на фазовой плоскости $(u_1,u_2)$ (a); на фазовой плоскости $(x_1,x_2)$ (b).}
         \label{fig:3.4}
 \end{figure}
@@ -260,7 +300,18 @@ $\frac{\lambda_2}{\lambda_1} >1$ и, следовательно, все инте
 \end{equation}
 \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.8\linewidth]{example-image-b}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/5a}
+
+                (a)
+        \end{minipage}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/5b}
+
+                (b)
+        \end{minipage}
         \caption{ Качественный вид состояния равновесия седло: на фазовой плоскости $(u_1,u_2)$ (a);
 на фазовой плоскости $x_1,x_2$ (b).}
         \label{fig:3.5}
@@ -310,8 +361,19 @@ $k_1$ и $k_2$ являются корнями уравнения
  называет \textbf{ вырожденным узлом}, который также может быть либо устойчивым $(\lambda<0)$, либо неустойчивым $(\lambda>0)$. У вырожденного узла имеется только ведущее направление, которого касаются все остальные траектории (рис.\ref{fig:3.6}b).
 
  \begin{figure}[h!]
-         \centering
-         \includegraphics[width=0.8\linewidth]{example-image-a}
+        \centering
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/6a}
+
+                (a)
+        \end{minipage}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/6b}
+
+                (b)
+        \end{minipage}
          \label{fig:3.6}
          \caption{Устойчивый дикритичечкий узел (а); устойчивый вырожденный узел (b)}
  \end{figure}
@@ -421,7 +483,7 @@ $k_1$ и $k_2$ являются корнями уравнения
 \end{equation}
 \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.8\linewidth]{fig/lect3/8}
+        \includegraphics[scale=1]{fig/lect3/8}
         \label{fig:3.8}
         \caption{Разбиение плоскости $(\mu_1,\mu_2)$ на области, соответствующие различным типам состояний равновесия.}
 \end{figure}
@@ -446,8 +508,19 @@ $k_1$ и $k_2$ являются корнями уравнения
         
 \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.5\linewidth]{fig/lect3/9a}
-        \label{fig:3.9}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/9a}
+
+                (a)
+        \end{minipage}
+        \begin{minipage}{0.45\linewidth}
+                \centering  
+                \includegraphics[]{fig/lect3/9b}
+
+                (b)      
+        \end{minipage}
+          \label{fig:3.9}
         \caption{Фазовые портреты системы \eqref{eq:3.30}  для различных значений параметра $\mu_1:$
         (a) $\mu_1>0$ ; (b) $\mu_1=0$ ; (c) $\mu_1<0$.}
 \end{figure}
