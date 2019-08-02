@@ -1,6 +1,6 @@
 import os
 svg=[]
-lections = ['lect'+str(i) for i in range(4,6)]
+lections = ['lect'+str(i) for i in range(11,16)]
 for lect in lections:
 	for file in os.listdir(path='fig\\' +lect):
 		if file.endswith('.svg'):

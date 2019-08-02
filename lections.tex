@@ -27,8 +27,8 @@
 % Графика
 \usepackage{graphicx,xcolor}
 \graphicspath{{fig/}}
-% \usepackage[usenames,dvipsnames]{color} 
-% \usepackage{float}
+ % \usepackage[usenames,dvipsnames]{color} 
+\usepackage{float}
 
 \usepackage{epigraph}
 \renewcommand{\epigraphflush}{center}
@@ -177,7 +177,7 @@
 \newpage
 \part{Осенний семестр}
 \chapter{Введение в теорию колебаний}
-\epigraph{ \textit {Предмет и содержание теории колебаний. Динамические системы с
+\epigraph{\textit {Предмет и содержание теории колебаний. Динамические системы с
 непрерывным и дискретным временем. Фазовое пространство.
 Динамические системы с диссипацией. Аттракторы. Грубость
 (структурная устойчивость) динамических систем.}}{}
@@ -187,7 +187,7 @@
 
 \newpage
 \chapter{Динамические системы на прямой}
-\epigraph{ \textit{ Качественный подход. Грубые состояния равновесия и их
+\epigraph{\textit{Качественный подход. Грубые состояния равновесия и их
 устойчивость. Понятие о нормальной форме. Бифуркации
 состояний равновесия на прямой. Системы на окружности.}}{}
 \label{lect2}
@@ -283,13 +283,40 @@
 \label{sec:lect12}
     \input{text/lect12}
 
-% \section{колебания и волны в цепочке взаимосвязанных тождественных осцилляторов}
-% \label{sec:osci_and_wave_in_ordered_struct}
-% 	% 08.04.19
-% 	\input{text/osci_and_wave_in_ordered_struct}
+\newpage
+\chapter{Вынужденные колебания линейного осциллятора}
+\epigraph{\textit{Глобальное отображение Пуанкаре. Периодические и
+квазипериодические вынужденные колебания. Резонанс и
+резонансные кривые. Биения. Добротность}}{}
+\label{sec:lect13}
+    \input{text/lect13}
+
+
+\newpage
+\chapter{Вынужденные колебания в слабонелинейных системах
+с одной степенью свободы}
+\epigraph{\textit{Стандартная форма метода усреднения. Резонанс в нелинейном
+осцилляторе. Динамика системы укороченных уравнений.
+Резонансные кривые.}}{}
+\label{sec:lect14}
+    \input{text/lect14}
+
+\newpage
+\chapter{Динамика укороченной системы. Отображение Пуанкаре. Режим
+синхронизма и его характеристики.}
+\epigraph{\textit{Укороченная система. Динамика маятниковых часов. Мягкое и
+жесткое возбуждение автоколебаний.}}{}
+\label{sec:lect15}
+    \input{text/lect15}
 
 % \newpage
-% \section{диффузионная неустойчивость. структура тьюринга}
+% \chapter{Колебания и волны в цепочке взаимосвязанных тождественных осцилляторов}
+%  \label{sec:osci_and_wave_in_ordered_struct}
+% % 	% 08.04.19
+%      \input{text/osci_and_wave_in_ordered_struct}
+
+% \newpage
+% \chapter{Диффузионная неустойчивость. Структура тьюринга}
 % \label{sec:diffusion_instability}
 % 	% 15.04.19
 % 	\input{text/diffusion_instability}
@@ -297,32 +324,31 @@
 
 
 % \newpage
-% \section{солитоны в уравнении кортевега -- де вриза}
+% \chapter{Солитоны в уравнении кортевега-де Вриза}
 % \label{ssec:soliton}
 
-
-% \input{text/soliton}
-
+% 	\input{text/soliton}
 
 
-% \section{стационарные ударные волны}
+
+% \chapter{Стационарные ударные волны}
 % \label{sec:shock_waves}
 % 	\input{text/shock_waves}
 
 % \newpage
-% \section{параметрические колебания}
+% \chapter{Параметрические колебания}
 % \label{sec:parametric_oscillations}
 % % 29.04.19 
 % 	\input{text/parametric_oscillations}
 	
 % \newpage
-% \section{динамика маятника с вибрирующей точкой подвеса. маятник капицы}
+% \chapter{Динамика маятника с вибрирующей точкой подвеса. Маятник Капицы}
 % \label{sec:kap_pendulum}
 % 	% 29.04.19 
 % 	\input{text/kap_pendulum}
 
 % \newpage
-% \section{введение в теорию многомерных динамических систем}
+% \chapter{Введение в теорию многомерных динамических систем}
 % \label{sec:multidimensional_dynamic_systems}
 % % 29.04.19 
 % 	\input{text/multidimensional_dynamic_systems}
